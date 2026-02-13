@@ -754,7 +754,8 @@
           "Multi-vendor compatibility",
           "Scalable portfolio management",
           "Grid services ready"
-        ]
+        ],
+        "content": "Seamlessly integrates, optimizes, and dispatches all distributed assets for maximum market revenue."
       },
       "dsosTsos": {
         "title": "DSOs",
@@ -768,6 +769,15 @@
           "Standardized protocols",
           "Reliable asset control"
         ]
+      },
+      "title": "Who Benefits from +SolarControl?",
+      "owners": {
+        "title": "RES Park Owners & Operators",
+        "content": "Real-time monitoring and dynamic adjustment to ensure the energy assets are continuously operating within all local and regional grid codes."
+      },
+      "dso": {
+        "title": "DSOs & TSOs",
+        "content": "Provide the robust, secure, and real-time control layer necessary for modern grid management and reliable integration of RES, always in compliance with regulatory requirements and technical standards."
       }
     },
     "insightsAddOn": {

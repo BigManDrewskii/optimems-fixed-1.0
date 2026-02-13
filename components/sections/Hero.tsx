@@ -77,12 +77,12 @@ export function Hero() {
             >
               <CustomPrimaryButton
                 href={hero.primaryCTA.href}
-                label={t('hero.primaryCTA')}
+                label={t('hero.primaryCTA.label')}
               />
 
               <Button variant="ghost" size="lg" asChild>
                 <Link href={hero.secondaryCTA.href}>
-                  {t('hero.secondaryCTA')}
+                  {t('hero.secondaryCTA.label')}
                 </Link>
               </Button>
             </motion.div>
