@@ -16,7 +16,7 @@ const routes = [
   // '/careers', // Temporarily hidden
   '/partnership',
   '/case-studies',
-  '/rnd-projects',
+  // '/rnd-projects', // Hidden until page is ready
   '/compatibility-lists',
   '/warranties',
   '/demo',

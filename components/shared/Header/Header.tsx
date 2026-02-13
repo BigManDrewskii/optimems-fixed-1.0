@@ -91,7 +91,7 @@ export function Header({ className }: HeaderProps) {
         // { label: t("navigation.caseStudies"), href: "/case-studies" }, // Temporarily hidden
         { label: t("navigation.partnership"), href: "/partnership" },
         // { label: t("navigation.careers"), href: "/careers" }, // Temporarily hidden
-        { label: t("navigation.rndProjects"), href: "/rnd-projects" },
+        // { label: t("navigation.rndProjects"), href: "/rnd-projects" }, // Hidden until page is ready
         { label: t("navigation.contactAndSupport"), href: "/contact" },
       ],
     },
