@@ -3,9 +3,9 @@
 
 import { Mail, ChevronDown } from "lucide-react"
 import { Link } from "@/i18n/navigation"
-import { Video, OptimemsLogo } from "@/components/shared"
+import { OptimemsLogo } from "@/components/shared"
 import { useState, useEffect } from "react"
-import { useTranslations, useLocale } from "next-intl"
+import { useTranslations } from "next-intl"
 import { useTheme } from "next-themes"
 
 function FooterSection({ title, links, isOpen, onToggle }: { title: string; links: { label: string; href: string }[]; isOpen: boolean; onToggle: () => void }) {

@@ -8,7 +8,6 @@ import { SectionHeader } from "@/components/shared/SectionHeader"
 import { BaseCard } from "@/components/shared/BaseCard"
 import { CustomPrimaryButton } from "@/components/shared"
 import { Shield, HeadphonesIcon, RefreshCw } from "lucide-react"
-import { Link } from "@/i18n/navigation"
 import { CheckCircle2 } from "lucide-react"
 
 /**

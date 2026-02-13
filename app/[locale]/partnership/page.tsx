@@ -14,9 +14,20 @@ import { SocialProof } from "@/components/sections/SocialProof"
 
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: "Partnership | Optimems",
-  description: "Partner with Optimems to lead energy transition. Competitive margins, comprehensive support, and proven technology.",
+type Props = {
+  params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params
+  return {
+    title: locale === 'el'
+      ? "Συνεργασία | Optimems"
+      : "Partnership | Optimems",
+    description: locale === 'el'
+      ? "Γίνετε συνεργάτης της Optimems και ηγηθείτε της ενεργειακής μετάβασης. Ανταγωνιστικά περιθώρια κέρδους, ολοκληρωμένη υποστήριξη και αποδεδειγμένη τεχνολογία."
+      : "Partner with Optimems to lead energy transition. Competitive margins, comprehensive support, and proven technology.",
+  }
 }
 
 export default function PartnershipPage() {

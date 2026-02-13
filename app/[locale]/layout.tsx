@@ -10,16 +10,30 @@ type Props = {
   params: Promise<{ locale: string }>
 }
 
+const metadata: Record<string, { title: string; description: string; ogAlt: string }> = {
+  en: {
+    title: "Optimems | Energy Command Center for Grid Optimization",
+    description: "Optimems delivers AI-powered energy management solutions for grid optimization, renewable energy integration, and real-time energy command. Transform your energy infrastructure today.",
+    ogAlt: "Optimems - Energy Command Center for Grid Optimization",
+  },
+  el: {
+    title: "Optimems | Κέντρο Ενεργειακής Διαχείρισης για Βελτιστοποίηση Δικτύου",
+    description: "Η Optimems παρέχει λύσεις ενεργειακής διαχείρισης με τεχνητή νοημοσύνη για βελτιστοποίηση δικτύου, ενσωμάτωση ανανεώσιμων πηγών ενέργειας και ενεργειακό έλεγχο σε πραγματικό χρόνο.",
+    ogAlt: "Optimems - Κέντρο Ενεργειακής Διαχείρισης για Βελτιστοποίηση Δικτύου",
+  },
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
+  const meta = metadata[locale] || metadata.en
 
   return {
     metadataBase: new URL("https://optimems.gr"),
     title: {
-      default: "Optimems | Energy Command Center for Grid Optimization",
+      default: meta.title,
       template: "%s | Optimems",
     },
-    description: "Optimems delivers AI-powered energy management solutions for grid optimization, renewable energy integration, and real-time energy command. Transform your energy infrastructure today.",
+    description: meta.description,
     openGraph: {
       type: 'website',
       locale: locale,
@@ -30,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: '/optimems-open-graph.png',
           width: 1200,
           height: 630,
-          alt: 'Optimems - Energy Command Center for Grid Optimization'
+          alt: meta.ogAlt,
         }
       ]
     },

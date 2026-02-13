@@ -5,7 +5,7 @@ import * as DialogPrimitive from '@radix-ui/react-dialog'
 import { X } from '@/lib/icons'
 
 import { cn } from '@/lib/utils'
-import { useLocale, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
 
 function Dialog({
   ...props

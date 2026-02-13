@@ -3,10 +3,9 @@ import { Container } from "@/components/shared/Container"
 import { SectionHeader } from "@/components/shared/SectionHeader"
 import { AnimatedSection } from "@/components/shared/AnimatedSection"
 import { GlassCard } from "@/components/shared/GlassCard"
-import { Button } from "@/components/ui/button"
 import { useTranslations } from "next-intl"
 import Link from "next/link"
-import { ArrowRight, Mail, Phone, MessageCircle, FileQuestion } from "lucide-react"
+import { ArrowRight, Mail, Phone, FileQuestion } from "lucide-react"
 
 export default function SupportPage() {
   const t = useTranslations("support")

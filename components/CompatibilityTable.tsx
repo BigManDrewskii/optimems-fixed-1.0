@@ -28,6 +28,7 @@ export function CompatibilityTable({ manufacturers }: CompatibilityTableProps) {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder={t("searchPlaceholder")}
+          aria-label={t("searchPlaceholder")}
           className="w-full px-4 py-3 rounded-lg border border-border/30 bg-card/60 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
         />
       </div>

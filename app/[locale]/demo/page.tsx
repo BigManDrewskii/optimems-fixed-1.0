@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { AppLayout } from "@/app/app-layout"
 import { Container } from "@/components/shared/Container"
-import { SectionHeader } from "@/components/shared/SectionHeader"
 import { AnimatedSection } from "@/components/shared/AnimatedSection"
 import { GlassCard } from "@/components/shared/GlassCard"
 import { Button } from "@/components/ui/button"

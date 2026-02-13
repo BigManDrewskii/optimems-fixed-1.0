@@ -10,6 +10,7 @@ const routes = [
   '/products-services',
   '/products-services/mind',
   '/products-services/solar-control',
+  '/products-services/consult',
   '/blog',
   '/contact',
   // '/careers', // Temporarily hidden
@@ -25,6 +26,7 @@ const routes = [
   '/privacy',
   '/terms',
   '/cookies',
+  '/docs',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
