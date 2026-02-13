@@ -1,0 +1,360 @@
+# +SolarControl Page Refinement: Implementation Guide (Concept A)
+
+## 1. Overview
+
+This document provides the complete content and structural specifications for implementing the **Concept A: The Accordion Stack** redesign of the +SolarControl product page. The content is sourced from the approved copy brief and the current live website, consolidated into the new, more compact structure.
+
+This guide is intended to be used directly for development, with all copy and component details provided.
+
+---
+
+## 2. Page Structure & Content
+
+**Trust Badge (Integrated):** A small, non-intrusive badge with the text: `Trusted by 1,200+ RES plants`
+
+2.2 `Hero` Section
+
+**Headline:**
+
+```
+Robust, real-time control & monitoring for each energy asset
+```
+
+**Subheadline:**
+
+```
+Optimal, futureproof and robust. Certified, secure, plug-and-play, and fully compliant with your DSO requirements.
+```
+
+**Primary CTA:**
+
+- **Text:** Book your Demo
+
+- **Style:** Solid Green
+
+**Secondary CTA:**
+
+- **Text:** Download Datasheet
+
+- **Style:** Outlined
+
+---
+
+### 2.3 `StatsBar` Section
+
+**Layout:** A single, horizontal bar divided into 5 segments.
+
+**Content:**
+
+| Stat | Label |
+| --- | --- |
+| **98%** | Customer satisfaction |
+| **30+** | Countries with active installations |
+| **100+** | Terawatt-hours monitored annually |
+| **85+** | Expert engineers in our team |
+| **✓ Certified** | Officially Certified by Aristotle University |
+
+---
+
+### 2.4 `ProductOverview` Section
+
+**Headline:**
+
+```
+A Complete, Plug-and-Play System for Monitoring, Control & Remote Management
+```
+
+**Layout:** Two-column layout.
+
+**Column 1: Hardware**
+
+- **Image:** `[Placeholder for Hardware Device Photo]`
+
+- **Title:** Hardware Component
+
+- **Description:** A compact, pre-wired electrical panel with an industrial-grade MiniPC and custom firmware that automatically configures itself through the Cloud.
+
+**Column 2: Software**
+
+- **Image:** `[Placeholder for Dashboard Screenshot]`
+
+- **Title:** Software Component
+
+- **Description:** A full cloud platform with real-time monitoring, curtailment information, KPIs & fault alerts.
+
+**Supported Technologies (Icons below columns):**
+
+- ☀️ PV
+
+- 💨 Wind
+
+- 💧 Small Hydro
+
+- 🌱 Biogas
+
+- 🌾 Biomass
+
+- 🔋 Batteries
+
+---
+
+### 2.5 `FeaturesAccordion` Section
+
+**Layout:** A series of four vertically stacked, expandable accordion panels. Only the title is visible by default.
+
+---
+
+#### Accordion Panel 1: SCADA Comparison
+
+**Title:** `▶ No Programming. No Special Expertise. No Hidden Complexity.`
+
+**Expanded Content:**
+
+| Traditional SCADA | +SolarControl |
+| --- | --- |
+| ✗ On-site engineers | ✓ Plug-and-play hardware |
+| ✗ Manual wiring | ✓ Cloud-based auto-configuration |
+| ✗ USB scripts | ✓ Instant remote access |
+| ✗ Custom programming | ✓ Zero manual setup |
+| ✗ Long installation times | ✓ No downtime |
+
+**Supporting Text:**
+
+```
+If you can install a small electrical panel and connect it to the internet, you can deploy +SolarControl.
+```
+
+**CTA:**
+
+- **Text:** Request Datasheet
+
+---
+
+#### Accordion Panel 2: Industrial Hardware
+
+**Title:** `▶ Industrial Hardware Built for RES Plants`
+
+**Expanded Content:**
+
+**Subheadline:**
+
+```
+No vendor lock-in. No commercial protocol limitations.
+```
+
+**Body:**
+
+```
+At the core of +SolarControl is an industrial MiniPC with custom firmware, housed in a sealed, pre-wired panel built to EN IEC 61439-1 & EN 61439-5 standards. It installs in minutes, operates in extreme temperatures (-20 to +60°C) and securely manages all communication with field devices.
+```
+
+**Feature List (Two Columns):**
+
+**Column 1:**
+
+- **Custom Firmware:** OTA updates & flexible configuration
+
+- **Edge Controller:** unique identifier & VPN client for secure access
+
+- **Zero-Trust Security:** impervious to cyberattacks & tampering attempts
+
+- **Industrial Durability:** certified, sealed, mechanically protected
+
+**Column 2:**
+
+- Compatibility with 65+ inverter manufacturers
+
+- Support for all major open protocols (IEC-60870-5-104, Modbus TCP/RTU, IEC61850, OPC-UA/DA/XML-DA)
+
+- Sealed enclosure for physical protection
+
+- Integration with aggregators & ready for storage/BESS control
+
+- API for future interoperability
+
+---
+
+#### Accordion Panel 3: SolarShield Platform
+
+**Title:** `▶ SolarShield: The Online Monitoring & Control Platform`
+
+**Expanded Content:**
+
+**Body:**
+
+```
+With the SolarShield subscription, operators unlock the full power of the +SolarControl cloud platform. A platform designed to accelerate RES plant operations, ensuring maximum efficiency, complete transparency, and automatic compliance—every single time.
+```
+
+**Feature List:**
+
+- Real-time monitoring, KPIs & fault alerts
+
+- Remote control of set-points, active/reactive power & inverter commands
+
+- Real-time curtailment & Smart Maintenance
+
+- Monitoring & control of the Main Switch at the PCC
+
+- Secured European cloud hosting with zero-trust cybersecurity
+
+- Ready for RES aggregators and flexibility markets
+
+- Compatible with battery storage and hybrid systems
+
+- Modular design for future upgrades
+
+**Interoperability API Sub-section:**
+
+- **Headline:** Built for Tomorrow
+
+- **Body:** Our robust, standardized API guarantees seamless, future-proof interoperability. Aggregators benefit directly from rapid, low-friction integration, instantly unlocking new market exploitation potential.
+
+---
+
+#### Accordion Panel 4: +Insights Analytics
+
+**Title:** `▶ +SolarControl Insights: Unlock Advanced Analytics`
+
+**Expanded Content:**
+
+**Body:**
+
+```
+For operators who want more than real-time monitoring and control, +Insights adds a powerful analytical layer to +SolarControl, helping you understand long-term performance, detect hidden issues, and maximize production.
+```
+
+**Feature List: Advanced Analytics That Go Beyond Standard SCADA**
+
+- Long-term performance trends
+
+- Detailed inverter analytics
+
+- Comparative analysis across plants
+
+- Efficiency and availability metrics
+
+- Curves, charts, and historical reports
+
+**Key Differentiator Sub-section:**
+
+- **Headline:** Seamless Continuity — Even When Your Data Logger Is Offline
+
+- **Body:** Even if your inverter’s data logger is offline, malfunctioning, or replaced, +Insights maintains continuous data flow via the SolarControl hardware. Your history stays intact. Your reports stay complete. Your forecasting never breaks.
+
+---
+
+### 2.6 `WhoBenefits` Section (Tabbed)
+
+**Layout:** A three-tab interface.
+
+---
+
+#### Tab 1: Park Owners/Operators
+
+**Title:** `Park Owners/Operators`
+
+**Content:**
+
+```
+Real-time monitoring and dynamic adjustment to ensure the energy assets are continuously operating within all local and regional grid codes.
+```
+
+---
+
+#### Tab 2: Aggregators
+
+**Title:** `Aggregators`
+
+**Content:**
+
+```
+Seamlessly integrates, optimizes, and dispatches all distributed assets for maximum market revenue.
+```
+
+---
+
+#### Tab 3: DSOs & TSOs
+
+**Title:** `DSOs & TSOs`
+
+**Content:**
+
+```
+Provide the robust, secure, and real-time control layer necessary for modern grid management and reliable integration of RES, always in compliance with regulatory requirements and technical standards.
+```
+
+---
+
+### 2.7 `Pricing` Section
+
+**Headline:**
+
+```
+Simple, Transparent, and Scalable Pricing
+```
+
+**Layout:** A horizontal row of three pricing cards.
+
+**Card 1: Base Package**
+
+- **Title:** +SolarControl Hardware
+
+- **Label:** Hardware only
+
+- **Description:** This entry-level option includes only the hardware required for compliance and basic operations. Ideal for RES plants that must meet DSO requirements but do not need cloud-based monitoring or remote dashboard access.
+
+- **CTA:** Contact Sales
+
+**Card 2: SolarShield Platform (Highlighted)**
+
+- **Title:** SolarShield Platform
+
+- **Label:** Full Cloud Monitoring & Remote Control
+
+- **Description:** SolarShield is the core subscription plan that activates the full power of +SolarControl. Includes Everything in the Hardware package, plus the full cloud platform.
+
+- **CTA:** Contact Sales
+
+**Card 3: +Insights Add-On**
+
+- **Title:** +SolarControl Insights
+
+- **Label:** Analytics & Historical Intelligence
+
+- **Description:** The +Insights add-on enhances SolarShield with deep analytics and long-term trend visibility for asset managers and operators who need deep visibility.
+
+- **CTA:** Contact Sales
+
+---
+
+### 2.8 `FinalCTA` Section
+
+**Headline:**
+
+```
+Ready to Take Full Control of Your RES Plant?
+```
+
+**Form Fields:**
+
+- Full Name
+
+- Email
+
+- Company
+
+- Message
+
+**CTA Button:**
+
+- **Text:** Book Your Demo
+
+**Trust Indicators (below form):**
+
+- Trusted by 1200+ RES plants
+
+- Independently certified
+
+- 100% developed in EU
+

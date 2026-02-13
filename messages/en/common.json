@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "products": "Products",
+    "company": "Company",
+    "resources": "Resources",
+    "aboutUs": "About Us",
+    "partnership": "Partnership",
+    "caseStudies": "Case Studies",
+    "careers": "Careers",
+    "blog": "Blog",
+    "news": "News",
+    "webinars": "Webinars",
+    "lessonLearned": "Lesson Learned",
+    "demo": "Demo",
+    "docs": "Docs",
+    "support": "Support",
+    "contactUs": "Contact Us",
+    "signIn": "Sign In",
+    "getStarted": "Get Started",
+    "menu": "Menu",
+    "solarControl": "+SolarControl",
+    "mind": "+Mind",
+    "consult": "Consulting",
+    "rndProjects": "R&D Projects",
+    "compatibilityLists": "Compatibility Lists",
+    "warranties": "Warranties",
+    "contactAndSupport": "Contact & Support"
+  },
+  "footer": {
+    "company": {
+      "name": "Optimems",
+      "description": "Next-generation Energy Management Systems for microgrids and VPPs."
+    },
+    "sectionTitles": {
+      "products": "PRODUCTS",
+      "company": "COMPANY",
+      "resources": "RESOURCES"
+    },
+    "footerLinks": {
+      "products": "+SolarControl, +Mind",
+      "company": "About Us, Partnership, Case Studies, Careers",
+      "resources": "Blog, Branding, Documentation, Support",
+      "legal": "Privacy Policy, Terms of Service, Cookie Policy"
+    },
+    "legalLinks": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy"
+    },
+    "copyright": "© 2026 Optimems. All rights reserved."
+  },
+  "aria": {
+    "toggleTheme": "Toggle theme",
+    "toggleThemeSrOnly": "Toggle theme",
+    "switchToLightTheme": "Switch to light theme",
+    "switchToDarkTheme": "Switch to dark theme",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "close": "Close",
+    "videoUnavailable": "Video is unavailable",
+    "mapActive": "Active",
+    "mapComingSoon": "Coming soon"
+  },
+  "legal": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  }
+}

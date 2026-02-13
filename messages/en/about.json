@@ -1,0 +1,440 @@
+{
+  "aboutUsPage": {
+    "tagline": {
+      "headline": "Simplify. Democratize. Empower.",
+      "subline": "We accelerate the energy transition for everyone, one intelligent microgrid at a time."
+    },
+    "vision": {
+      "label": "Our Vision",
+      "title": "Vision",
+      "description": "Imagine a world where all your energy needs are seamlessly handled, creating a system that works perfectly for everyone and everything involved. This is the energy future Optimems is creating.",
+      "imageAlt": "Vision of energy management in business setting"
+    },
+    "mission": {
+      "label": "Our Mission",
+      "title": "Mission",
+      "statement": "Our mission is to make advanced energy management accessible, intelligent, and economically effective.",
+      "details": "We help homeowners, businesses, aggregators, and power producers operate complex energy systems with confidence—ensuring regulatory compliance, optimal performance, and strong financial outcomes across diverse energy markets worldwide.",
+      "accelerating": "Accelerating a sustainable, decentralized energy future by providing the necessary intelligent, automated control systems to manage the modern, complex power grid efficiently."
+    },
+    "ceo": {
+      "subtitle": "MESSAGE FROM THE CEO",
+      "title": "Building the Energy Future, Today",
+      "quote": "We use our expert academic research and hands-on experience to deliver affordable, intelligent solutions that seamlessly handle all energy needs. Our technology empowers homeowners, businesses, and power plant managers with total control, independence, and the best financial results. This isn't a dream; it's the world we at Optimems are delivering, one intelligent microgrid at a time.",
+      "name": "Angelina Bintoudi",
+      "role": "CEO, Optimems"
+    },
+    "team": {
+      "title": "The Team",
+      "description": "We leverage our years of academic research and hands-on experience to develop smart, collaborative technology and offer intelligent solutions that truly put energy control back into your hands.",
+      "management": "Management Team",
+      "rest": "Meet the Rest of the Team"
+    },
+    "values": {
+      "title": "Our Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "Strong commitment to continuous innovation, driving the evolution of energy management solutions towards a greener future."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Pioneering solutions that promote a sustainable renewable energy landscape lie at the core of our mission."
+      },
+      "holistic": {
+        "title": "Holistic Approach",
+        "description": "Integration of cutting-edge technology with a comprehensive understanding of energy systems to provide maximum efficiency and cost savings."
+      }
+    },
+    "workWithUs": {
+      "headline": "Innovate. Optimize. Lead. This is the Optimems Team. Be part of it!",
+      "subline": "We are always looking for talented individuals who want to shape the future of energy with us.",
+      "cta": "View Job Openings"
+    },
+    "blog": {
+      "title": "Latest Blog & Articles",
+      "description": "Stay informed with the latest news, insights, and developments from Optimems.",
+      "viewAll": "View All Posts",
+      "noPosts": "No blog posts available yet.",
+      "backToBlog": "← Back to Blog",
+      "minRead": "min read",
+      "by": "By",
+      "relatedPostsLabel": "Related Posts",
+      "relatedPostsTitle": "You Might Also Like",
+      "relatedPostsDescription": "Continue reading with these related articles."
+    }
+  },
+  "partnershipPage": {
+    "hero": {
+      "badge": "Strategic Partnership Program",
+      "headline": "Drive the Energy Transition. Grow Your Revenue.",
+      "subheadline": "Partner with Optimems to Lead the Future of Energy Management",
+      "body1": "Are you a System Integrator, Consultant, Building Developer, Software Reseller, Equipment Distributor, or Equipment Manufacturer driven to shape the future of energy?",
+      "body2": "Do you want to lead the energy transition while significantly growing your revenue?",
+      "body3": "Then you belong in the Optimems ecosystem. Join us in building a smarter, more sustainable world—one intelligent microgrid at a time.",
+      "primaryCTA": "Apply to Become a Partner"
+    },
+    "types": {
+      "headline": "Built for Strategic Energy Sector Partners",
+      "introduction": "Optimems partners with industry leaders across the entire energy value chain",
+      "systemIntegrators": {
+        "title": "System Integrators",
+        "description": "Deliver complete energy management solutions to your clients with our proven technology platform.",
+        "benefits": [
+          "Ready-to-deploy solutions",
+          "Technical training & certification",
+          "Project support from our experts",
+          "Competitive partner margins"
+        ]
+      },
+      "consultants": {
+        "title": "Consultants",
+        "description": "Enhance your advisory services with cutting-edge energy management technology and market insights.",
+        "benefits": [
+          "Strategic market positioning",
+          "Technical expertise access",
+          "Co-branded thought leadership",
+          "Client success stories"
+        ]
+      },
+      "buildingDevelopers": {
+        "title": "Building Developers",
+        "description": "Differentiate your properties with intelligent energy management—reducing operational costs and increasing property value.",
+        "benefits": [
+          "Tenant cost savings",
+          "ESG compliance support",
+          "Increased property value",
+          "Future-proof infrastructure"
+        ]
+      },
+      "softwareResellers": {
+        "title": "Software Resellers",
+        "description": "Expand your portfolio with enterprise-grade energy management software that complements your existing offerings.",
+        "benefits": [
+          "Recurring revenue streams",
+          "API integration support",
+          "White-label opportunities",
+          "Technical documentation"
+        ]
+      },
+      "equipmentDistributors": {
+        "title": "Equipment Distributors",
+        "description": "Add high-demand energy management hardware to your distribution network with exclusive territory rights.",
+        "benefits": [
+          "Exclusive territories available",
+          "Inventory support",
+          "Marketing materials",
+          "Technical training"
+        ]
+      },
+      "equipmentManufacturers": {
+        "title": "Equipment Manufacturers",
+        "description": "Integrate your equipment with our platform to unlock new market opportunities and enhance product value.",
+        "benefits": [
+          "Technology integration",
+          "Joint go-to-market",
+          "Co-development opportunities",
+          "Expanded market reach"
+        ]
+      }
+    },
+    "whyPartner": {
+      "headline": "Three Compelling Reasons to Partner with Optimems",
+      "introduction": "Join a partnership program designed for mutual growth and success",
+      "benefit1": {
+        "headline": "Position Your Business at the Forefront of Energy Innovation",
+        "description": "The global energy transition represents one of the largest market opportunities of our generation. Partner with Optimems to position your business as a key driver and innovator in this critical, high-growth sector.",
+        "whatItMeans": "What This Means for You:",
+        "benefits": [
+          "Association with cutting-edge technology",
+          "Access to proven, certified solutions",
+          "Competitive advantage in a growing market",
+          "Expert positioning in energy management"
+        ]
+      },
+      "benefit2": {
+        "headline": "Access Highly Competitive Margins and Revenue Opportunities",
+        "description": "Our partnership structure is designed to ensure lucrative returns on every successful project. We provide the technology, training, and support you need to close deals and maximize profitability.",
+        "whatItMeans": "What This Means for You:",
+        "benefits": [
+          "Attractive partner margins",
+          "Recurring revenue potential",
+          "Multiple revenue streams (hardware, software, services)",
+          "Project-based incentives"
+        ]
+      },
+      "benefit3": {
+        "headline": "Amplify Your Brand with Co-Marketing Support",
+        "description": "Benefit from joint marketing initiatives designed to boost your brand credibility and expand your market reach. We invest in your success through co-branded campaigns, press releases, and thought leadership opportunities.",
+        "whatItMeans": "What This Means for You:",
+        "benefits": [
+          "Joint press releases",
+          "Co-branded marketing materials",
+          "Case study development",
+          "Event and webinar co-hosting",
+          "Social media amplification",
+          "Lead generation support"
+        ]
+      }
+    },
+    "benefits": {
+      "headline": "What You Get as an Optimems Partner",
+      "introduction": "Comprehensive support designed to accelerate your success",
+      "technicalTraining": {
+        "title": "Technical Training & Certification",
+        "description": "Access comprehensive training programs and earn official Optimems partner certifications"
+      },
+      "marketingSupport": {
+        "title": "Marketing & Sales Support",
+        "description": "Co-branded materials, lead generation programs, and dedicated partner portal access"
+      },
+      "technicalSupport": {
+        "title": "Technical & Project Support",
+        "description": "Direct access to our engineering team for pre-sales support and project implementation"
+      },
+      "competitiveMargins": {
+        "title": "Competitive Margins",
+        "description": "Attractive partner pricing ensuring healthy margins on hardware, software, and services"
+      },
+      "exclusiveTerritory": {
+        "title": "Exclusive Territory Options",
+        "description": "Opportunity for territorial exclusivity in select markets (where applicable)"
+      },
+      "partnerPortal": {
+        "title": "Partner Portal & Resources",
+        "description": "24/7 access to technical documentation, sales tools, training materials, and support"
+      }
+    },
+    "howToStart": {
+      "headline": "Your Path to Partnership is Simple",
+      "introduction": "We've designed a straightforward application process to get you started quickly",
+      "step1": {
+        "headline": "Submit Your Partnership Application",
+        "description": "Fill out our partnership application form, telling us about: Your business and capabilities, Your target market and customer base, Your interest in Optimems partnership, Your revenue and growth goals.",
+        "estimatedTime": "Estimated Time: 10-15 minutes",
+        "cta": "Start Application"
+      },
+      "step2": {
+        "headline": "Initial Review & Strategy Discussion",
+        "description": "Our partnership team will review your application and schedule a brief discovery call to: Understand your business objectives, Explore partnership opportunities, Discuss technical requirements, Outline next steps.",
+        "timeline": "Timeline: Within 5 business days of application"
+      },
+      "step3": {
+        "headline": "Partner Agreement & Program Activation",
+        "description": "Once approved, we'll: Provide the official Partner Agreement, Set up your partner portal access, Schedule technical training, Assign your dedicated partner manager, Begin co-marketing initiatives.",
+        "timeline": "Timeline: 2-3 weeks from approval"
+      }
+    },
+    "technology": {
+      "headline": "Proven Technology. Real Results.",
+      "introduction": "Partner with confidence knowing our solutions are deployed and trusted",
+      "differentiators": [
+        "1,200+ RES Plants Trusted — Proven track record across Europe",
+        "100% Proprietary Technology — Developed in-house (EU)",
+        "Independently Certified — By Aristotle University of Thessaloniki",
+        "Hardware + Software Solutions — Complete platform offering",
+        "65+ Equipment Integrations — Universal compatibility",
+        "European Data Sovereignty — GDPR-compliant cloud hosting"
+      ]
+    },
+    "requirements": {
+      "headline": "Partnership Requirements",
+      "introduction": "We're looking for partners who share our commitment to excellence",
+      "business": {
+        "title": "Business Requirements",
+        "requirements": [
+          "Established business with proven track record",
+          "Technical capability or willingness to be trained",
+          "Commitment to customer success",
+          "Alignment with Optimems values"
+        ]
+      },
+      "technical": {
+        "title": "Technical Requirements",
+        "subtitle": "Varies by Partner Type",
+        "requirements": [
+          "Technical team or capability to support implementations",
+          "Willingness to complete certification training",
+          "Commitment to maintaining technical expertise"
+        ]
+      },
+      "market": {
+        "title": "Market Requirements",
+        "requirements": [
+          "Defined target market or customer base",
+          "Sales and marketing capability",
+          "Commitment to joint business planning"
+        ]
+      }
+    },
+    "faq": {
+      "headline": "Partnership Program FAQs",
+      "questions": [
+        {
+          "q": "What types of businesses do you partner with?",
+          "a": "We partner with System Integrators, Consultants, Building Developers, Software Resellers, Equipment Distributors, and Equipment Manufacturers who serve the energy management sector."
+        },
+        {
+          "q": "What are the financial requirements to become a partner?",
+          "a": "Financial requirements vary by partnership type. We'll discuss specific investment requirements during the application process. Generally, partners should be financially stable and able to invest in training and initial marketing."
+        },
+        {
+          "q": "How long does the application process take?",
+          "a": "The application review typically takes 5 business days. The complete onboarding process, from application to full partner activation, usually takes 3-4 weeks."
+        },
+        {
+          "q": "Do you offer exclusive territory rights?",
+          "a": "Territorial exclusivity is available in select markets for qualified partners who meet specific performance criteria. We'll discuss territory options during the discovery call."
+        },
+        {
+          "q": "What kind of training and support do you provide?",
+          "a": "We provide comprehensive technical training, sales enablement, marketing support, and ongoing technical assistance. Partners have access to our partner portal with 24/7 resources."
+        },
+        {
+          "q": "What are the revenue opportunities?",
+          "a": "Partners can generate revenue through hardware sales, software subscriptions, professional services, and ongoing maintenance contracts. Specific margin structures are discussed during the onboarding process."
+        },
+        {
+          "q": "Can I partner with Optimems if I'm already working with competitors?",
+          "a": "We evaluate each partnership opportunity individually. We're looking for partners committed to mutual success, which may include specific performance commitments."
+        },
+        {
+          "q": "How is marketing support provided?",
+          "a": "We provide co-branded marketing materials, lead generation support, joint press releases, case study development, and event co-hosting opportunities."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Ready to Build the Future of Energy Together?",
+      "subheadline": "Join the Optimems partner ecosystem and position your business at the forefront of the energy transition",
+      "body": "Whether you're a System Integrator looking to expand your service offerings, a Consultant seeking cutting-edge solutions for clients, or a Distributor wanting to add high-demand products to your portfolio—we're ready to explore partnership opportunities with you.",
+      "trustSignals": [
+        "Proven technology trusted by 1,200+ installations",
+        "Comprehensive training and support",
+        "Competitive margins and revenue opportunities",
+        "Co-marketing and lead generation support"
+      ],
+      "primaryCTA": "Apply to Become a Partner",
+      "questionsText": "Questions?",
+      "contactLink": "Contact Our Partnership Team"
+    }
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "label": "Case Studies",
+      "headline": "What We Optimize, How We Optimize It",
+      "subheadline": "Real-world impact across industries. Discover how we're helping organizations transform their energy management and accelerate sustainable growth.",
+      "manifesto": "Simplify. Democratize. Empower. Accelerating the Energy Transition for Everyone"
+    },
+    "cases": {
+      "lamda": {
+        "client": "Lamda Development",
+        "tags": ["Real Estate", "Smart Buildings"],
+        "description": "Implementing intelligent energy optimization across one of Greece's largest real estate developments, reducing operational costs while setting new standards for sustainable building management.",
+        "focusAreas": ["Large-scale property development", "Building energy management systems", "Operational cost reduction", "Sustainability compliance"]
+      },
+      "checkwatt": {
+        "client": "Checkwatt",
+        "tags": ["Energy Storage", "Microgrids"],
+        "description": "Partnering with Sweden's leading energy storage company to deliver advanced microgrid management solutions, enabling seamless integration of distributed energy resources.",
+        "focusAreas": ["Energy storage optimization", "Microgrid management", "Cross-border partnership", "Distributed energy resources"]
+      },
+      "soumpasis": {
+        "client": "Soumpasis",
+        "tags": ["Agriculture", "Self-Consumption"],
+        "description": "Transforming agricultural energy consumption through smart optimization systems, helping one of Greece's established agricultural enterprises achieve energy independence.",
+        "focusAreas": ["Agricultural sector energy management", "Self-consumption maximization", "Energy independence", "Rural energy solutions"]
+      },
+      "pcc": {
+        "client": "PCC FoSE",
+        "tags": ["Industrial", "Carbon Reduction"],
+        "description": "Deploying comprehensive energy management for industrial-scale operations, optimizing power flows and reducing carbon footprint across multiple facilities.",
+        "focusAreas": ["Industrial energy optimization", "Multi-facility management", "Carbon footprint reduction", "Power flow optimization"]
+      },
+      "motorOil": {
+        "client": "Motor Oil",
+        "tags": ["Energy Sector", "Renewables"],
+        "description": "Supporting Greece's leading energy group in their renewable transition with intelligent monitoring and optimization across their expanding clean energy portfolio.",
+        "focusAreas": ["Energy sector transformation", "Renewable portfolio management", "Large-scale monitoring", "Clean energy transition"]
+      },
+      "sunlight": {
+        "client": "Sunlight",
+        "tags": ["Battery Systems", "Integration"],
+        "description": "Collaborating with a global leader in energy storage to integrate advanced battery management with our platform, maximizing efficiency and system longevity.",
+        "focusAreas": ["Battery system integration", "Storage optimization", "Platform integration", "System longevity"]
+      }
+    },
+    "cta": {
+      "headline": "Want to Know More or Be Part of the Transition?",
+      "subheadline": "Join the companies accelerating toward a sustainable energy future.",
+      "button": "Contact Us"
+    }
+  },
+  "careers": {
+    "hero": {
+      "title": "Join Our Team",
+      "description": "Help us revolutionize energy management. We're always looking for talented individuals."
+    },
+    "whyJoin": {
+      "label": "Why Join Us",
+      "title": "Build the Future of Energy",
+      "description": "Work with a innovative team on cutting-edge technology that makes a real difference.",
+      "cards": {
+        "innovation": {
+          "title": "Innovation",
+          "description": "Work on cutting-edge AI and energy management technology."
+        },
+        "team": {
+          "title": "Great Team",
+          "description": "Join a passionate, collaborative team of experts."
+        },
+        "impact": {
+          "title": "Impact",
+          "description": "Make a real difference in the transition to clean energy."
+        }
+      }
+    },
+    "positions": {
+      "title": "Open Positions",
+      "description": "Check our latest openings on LinkedIn and apply today.",
+      "cta": "View Open Positions"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "headline": "Let's Connect!",
+      "subheadline": "Whether you're looking for technical specs, a new partnership, or the right solution for your business, we're here to help you take the next step."
+    },
+    "form": {
+      "nameLabel": "Name",
+      "surnameLabel": "Surname",
+      "organisationLabel": "Organisation",
+      "subjectLabel": "Subject",
+      "messageLabel": "Message",
+      "submitLabel": "Submit",
+      "submittingLabel": "Sending...",
+      "subjects": {
+        "partnership": "Start a new partnership",
+        "solutions": "Inquire about energy solutions",
+        "datasheets": "Request technical data sheets",
+        "consultation": "Schedule a project consultation",
+        "general": "General questions"
+      },
+      "success": {
+        "title": "Thank You!",
+        "message": "We've received your message and will get back to you within 24 hours.",
+        "resetButton": "Send Another Message"
+      },
+      "errors": {
+        "required": "This field is required",
+        "email": "Please enter a valid email address"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "hours": "Business Hours"
+    }
+  }
+}

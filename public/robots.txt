@@ -1,0 +1,14 @@
+# Optimems robots.txt
+# https://optimems.gr
+
+User-agent: *
+Allow: /
+
+# Disallow auth and internal routes
+Disallow: /login
+Disallow: /signup
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap reference
+Sitemap: https://optimems.gr/sitemap.xml

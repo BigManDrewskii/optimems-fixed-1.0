@@ -1,0 +1,7 @@
+export { ConsultHero } from './ConsultHero'
+export { ConsultServices } from './ConsultServices'
+export { ConsultTechnology } from './ConsultTechnology'
+export { ConsultProcess } from './ConsultProcess'
+export { ConsultFAQ } from './ConsultFAQ'
+export { ConsultCTA } from './ConsultCTA'
+export { ConsultContact } from './ConsultContact'

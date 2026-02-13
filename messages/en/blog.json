@@ -1,0 +1,16 @@
+{
+  "blog": {
+    "label": "Blog",
+    "title": "Latest Insights",
+    "subtitle": "News, updates, and lessons from the field",
+    "viewAllArticles": "View All Articles",
+    "readArticle": "Read article",
+    "backToBlog": "← Back to Blog",
+    "minRead": "min read",
+    "by": "By",
+    "noPosts": "No blog posts available yet.",
+    "relatedPostsLabel": "Related Posts",
+    "relatedPostsTitle": "You Might Also Like",
+    "relatedPostsDescription": "Continue reading with these related articles."
+  }
+}

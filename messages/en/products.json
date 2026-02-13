@@ -1,0 +1,1255 @@
+{
+  "solarControlPage": {
+    "meta": {
+      "title": "+SolarControl | Regulatory Control & Real-time Monitoring",
+      "description": "Certified, secure plug-and-play solution for renewable energy assets. Trusted by 1,200+ RES projects. Full DESHE compliance with real-time control capabilities.",
+      "keywords": "SolarControl, regulatory control, DESHE, real-time monitoring, renewables, RES, smart grid, microgrid, energy management"
+    },
+    "hero": {
+      "badge": "Trusted by 1,200+ RES plants",
+      "headline": "Robust, real-time control & monitoring for each energy asset",
+      "tagline": "Optimal, futureproof and robust",
+      "subheadline": "Trusted by 1,200+ RES plants. Certified, secure, plug-and-play, and fully compliant with your DSO requirements.",
+      "primaryCTA": "Book your Demo",
+      "secondaryCTA": "Download Datasheet"
+    },
+    "problem": {
+      "headline": "Renewable energy is growing faster than ever. But as more plants connect to the grid, operators face a new set of challenges:",
+      "introduction": "The renewable energy landscape is evolving rapidly. As grid integration increases, operators and asset managers must navigate an increasingly complex regulatory and technical environment.",
+      "challenges": [
+        {
+          "title": "Stricter DSO Requirements",
+          "description": "Distribution System Operators are enforcing more rigorous grid codes and compliance standards."
+        },
+        {
+          "title": "Real-Time Control Needed",
+          "description": "Monitoring is no longer enough — operators need active, real-time control capabilities."
+        },
+        {
+          "title": "Cybersecurity Threats",
+          "description": "Connected energy assets face increasing risk from cyber attacks and security breaches."
+        },
+        {
+          "title": "Hardware Compatibility",
+          "description": "Integrating equipment from different manufacturers creates technical and operational challenges."
+        },
+        {
+          "title": "Aggregator Market Growth",
+          "description": "The rise of aggregators and flexibility markets requires new capabilities and business models."
+        },
+        {
+          "title": "Legacy System Limitations",
+          "description": "Old SCADA systems cannot scale or interoperate with modern grid requirements."
+        }
+      ],
+      "closing": "These challenges aren't just operational headaches — they're barriers to maximizing your plant's potential and revenue in the new energy era."
+    },
+    "solution": {
+      "headline": "A Future-Proof Monitoring and Control System for the New Era of Renewable Energy",
+      "subheadline": "Built to empower RES owners, operators, and aggregators",
+      "description": "+SolarControl was created to solve all of these issues in one unified, certified, plug-and-play system.",
+      "details": "+SolarControl combines full telemetry, real-time monitoring, and remote control into a single, ultra-secure cloud platform that works with any plant, regardless of technology or hardware.",
+      "closing": "It brings industrial-grade reliability to solar, wind, hydro, biogas, and biomass plants — without the complexity and cost of traditional SCADA systems.",
+      "benefitsTitle": "Key Benefits",
+      "benefits": [
+        "Plug-and-play deployment — install in minutes",
+        "Full DSO compliance — certified performance",
+        "65+ inverter integrations — no vendor lock-in",
+        "Future-proof architecture — ready for aggregators, storage & RfG",
+        "Support all legacy equipment — Give your existing infrastructure a high-value second life by connecting seamlessly to our next-gen platform"
+      ]
+    },
+    "trust": {
+      "headline": "Trusted in 1,200+ renewable energy plants",
+      "subheadline": "Across Europe's most demanding environments",
+      "certifiedLabel": "Officially Certified",
+      "certifiedDescription": "+SolarControl is certified for proper operation and full compliance by the Power Systems Laboratory of the Aristotle University of Thessaloniki.",
+      "inHouseTitle": "100% In-House Development in the EU",
+      "inHouseDescription": "From hardware design to cloud software and firmware, every component of +SolarControl is developed in-house by our engineering team in Thessaloniki, Greece.",
+      "inHouseBenefits": [
+        "No reliance on third-party black-box systems",
+        "Faster updates and future-proof innovation",
+        "Full accountability and transparency",
+        "European security and data hosting"
+      ],
+      "stats": {
+        "stat1": {
+          "value": "98%",
+          "description": "Customer satisfaction rate"
+        },
+        "stat2": {
+          "value": "30+",
+          "description": "Countries with active installations"
+        },
+        "stat3": {
+          "value": "100+",
+          "description": "Terawatt-hours monitored annually"
+        },
+        "stat4": {
+          "value": "85+",
+          "description": "Expert engineers in our team"
+        }
+      }
+    },
+    "whatIsSolarControl": {
+      "headline": "A Complete, Plug-and-Play System for Monitoring, Control & Remote Management",
+      "hardwareTitle": "Hardware Component",
+      "hardwareDescription": "A compact, pre-wired electrical panel with an industrial-grade MiniPC and custom firmware that automatically configures itself through the Cloud.",
+      "softwareTitle": "Software Component",
+      "softwareDescription": "A full cloud platform with real-time monitoring, curtailment information, KPIs & fault alerts.",
+      "supportedTechLabel": "Supported Technologies",
+      "technologies": {
+        "pv": "PV",
+        "wind": "Wind",
+        "hydro": "Small Hydro",
+        "biogas": "Biogas",
+        "biomass": "Biomass",
+        "batteries": "Batteries"
+      }
+    },
+    "differentiator": {
+      "headline": "No Programming. No Special Expertise. No Hidden Complexity.",
+      "subheading": "Most SCADA systems require:",
+      "scadaRequirements": [
+        "On-site engineers",
+        "Manual wiring",
+        "USB scripts",
+        "Custom programming",
+        "Long installation times"
+      ],
+      "solarControlOffers": [
+        "Plug-and-play hardware",
+        "Cloud-based auto-configuration",
+        "Instant remote access",
+        "Zero manual setup",
+        "No downtime"
+      ],
+      "closingStatement": "If you can install a small electrical panel and connect it to the internet, you can deploy +SolarControl.",
+      "ctaLabel": "Request Datasheet",
+      "icons": {
+        "compliance": {
+          "title": "Full Compliance",
+          "description": "In complete accordance with DSO specifications"
+        },
+        "security": {
+          "title": "Maximum Security",
+          "description": "Impregnable defense to cyber attacks"
+        },
+        "architecture": {
+          "title": "MiniPC Architecture",
+          "description": "Flexible and customizable in just a few clicks"
+        }
+      }
+    },
+    "hardwareOverview": {
+      "headline": "Industrial Hardware Built for RES Plants",
+      "subheadline": "No vendor lock-in. No commercial protocol limitations.",
+      "description": "At the core of +SolarControl is an industrial MiniPC with custom firmware, housed in a sealed, pre-wired panel built to EN IEC 61439-1 & EN 61439-5 standards.",
+      "details": "It installs in minutes, operates in extreme temperatures (-20 to +60°C) and securely manages all communication with field devices.",
+      "features": [
+        "Custom Firmware — OTA updates & flexible configuration",
+        "Edge Controller — unique identifier & VPN client for secure access",
+        "Zero-Trust Security — impervious to cyberattacks & tampering attempts",
+        "Industrial Durability — certified, sealed, mechanically protected",
+        "Compatibility with 65+ inverter manufacturers",
+        "Support for all major open protocols (IEC-60870-5-104, Modbus TCP/RTU, IEC61850, OPC-UA/DA/XML-DA)",
+        "Sealed enclosure for physical protection",
+        "Integration with aggregators",
+        "Ready for storage/BESS control",
+        "API for future interoperability"
+      ]
+    },
+    "softwareOverview": {
+      "headline": "SolarShield: The Online Monitoring & Control Platform",
+      "introduction": "With the SolarShield subscription, operators unlock the full power of the +SolarControl cloud platform.",
+      "features": [
+        "Real-time monitoring, KPIs & fault alerts",
+        "Remote control of set-points, active/reactive power & inverter commands",
+        "Real-time curtailment",
+        "Smart Maintenance & Downtime Prevention",
+        "Monitoring & control of the Main Switch at the PCC",
+        "Secured European cloud hosting",
+        "Zero-trust cybersecurity infrastructure",
+        "Ready for RES aggregators and flexibility markets",
+        "Compatible with battery storage and hybrid systems",
+        "Modular design for future upgrades"
+      ],
+      "platformDescription": "A platform designed to accelerate RES plant operations, ensuring maximum efficiency, complete transparency, and automatic compliance—every single time.",
+      "apiSectionTitle": "Interoperability API",
+      "apiSubtitle": "Built for Tomorrow",
+      "apiDescription": "Our robust, standardized API guarantees seamless, future-proof interoperability. Aggregators benefit directly from rapid, low-friction integration, instantly unlocking new market exploitation potential and ensuring your system is ready for the most complex energy markets of tomorrow."
+    },
+    "whoBenefits": {
+      "headline": "Who Benefits from +SolarControl?",
+      "parkOwners": {
+        "title": "RES Park",
+        "category": "Owners & Operators",
+        "headline": "Maximize Your Plant's Performance",
+        "description": "Real-time monitoring and dynamic adjustment to ensure the energy assets are continuously operating within all local and regional grid codes.",
+        "benefits": [
+          "Real-time monitoring and control",
+          "Automatic DSO compliance",
+          "Reduced operational costs",
+          "Increased energy production",
+          "Future-proof for aggregators"
+        ]
+      },
+      "aggregators": {
+        "title": "Energy",
+        "category": "Aggregators",
+        "headline": "Seamless Asset Integration",
+        "description": "Seamlessly integrates, optimizes, and dispatches all distributed assets for maximum market revenue.",
+        "benefits": [
+          "Standardized API integration",
+          "Real-time dispatch capabilities",
+          "Multi-vendor compatibility",
+          "Scalable portfolio management",
+          "Grid services ready"
+        ]
+      },
+      "dsosTsos": {
+        "title": "DSOs",
+        "category": "& TSOs",
+        "headline": "Grid Reliability & Compliance",
+        "description": "Provide the robust, secure, and real-time control layer necessary for modern grid management and reliable integration of RES, always in compliance with regulatory requirements and technical standards.",
+        "benefits": [
+          "Real-time grid observability",
+          "Certified compliance",
+          "Cybersecure infrastructure",
+          "Standardized protocols",
+          "Reliable asset control"
+        ]
+      }
+    },
+    "insightsAddOn": {
+      "headline": "+SolarControl Insights Add-On: Unlock Advanced Analytics and Deeper Intelligence",
+      "introduction": "For operators who want more than real-time monitoring and control, +Insights adds a powerful analytical layer to +SolarControl, helping you understand long-term performance, detect hidden issues, and maximize production.",
+      "introductionContinued": "+Insights is designed for RES owners, asset managers, aggregators, and anyone who needs deep visibility backed by reliable historical data.",
+      "subheadline": "Advanced Analytics That Go Beyond Standard SCADA",
+      "features": [
+        "Long-term performance trends",
+        "Detailed inverter analytics",
+        "Comparative analysis across plants",
+        "Efficiency and availability metrics",
+        "Curves, charts, and historical reports"
+      ],
+      "allPresented": "All presented in a clean, intuitive interface.",
+      "differentiatorLabel": "Key Differentiator",
+      "differentiatorTitle": "Seamless Continuity — Even When Your Data Logger Is Offline",
+      "differentiatorIntro": "Even if your inverter's data logger is:",
+      "dataLoggerStates": [
+        "Offline",
+        "Malfunctioning",
+        "Temporarily removed",
+        "Replaced",
+        "Suffering communication issues"
+      ],
+      "differentiatorConclusion": "+Insights maintains continuous data flow via the SolarControl hardware.",
+      "continuityBenefits": [
+        "Your history stays intact",
+        "Your reports stay complete",
+        "Your forecasting never breaks"
+      ]
+    },
+    "pricing": {
+      "headline": "Simple, Transparent, and Scalable Pricing",
+      "introduction": "Every renewable energy plant has different needs. That's why +SolarControl is available in three flexible tiers — from essential hardware-only compliance to full SCADA functionality and advanced analytics.",
+      "packages": {
+        "hardware": {
+          "title": "+SolarControl Hardware",
+          "subtitle": "Base Package",
+          "description": "Hardware only",
+          "details": "This entry-level option includes only the hardware required for compliance and basic operations.",
+          "useCase": "It is ideal for RES plants that must meet DSO requirements but do not need cloud-based monitoring or remote dashboard access.",
+          "includes": [
+            "Certified plug-and-play control hardware",
+            "Fully pre-wired, sealed electrical panel",
+            "DSO-compliant telemetry & control interfaces",
+            "Automatic configuration through the Cloud",
+            "Universal compatibility (65+ inverter manufacturers)",
+            "Firmware updates",
+            "2-year equipment replacement warranty (EN IEC 61439-1 & EN 61439-5)",
+            "Basic technical support by email"
+          ],
+          "cta": "Contact Sales"
+        },
+        "solarShield": {
+          "title": "SolarShield Platform",
+          "subtitle": "Subscription Plan",
+          "description": "Full Cloud Monitoring & Remote Control",
+          "details": "SolarShield is the core subscription plan that activates the full power of +SolarControl.",
+          "includesLabel": "Includes Everything in the Hardware package, plus:",
+          "includes": [
+            "Full cloud-based SCADA platform",
+            "Real-time monitoring & KPIs",
+            "Remote control capabilities (active/reactive power, curtailment, inverter commands)",
+            "Single dashboard for all parks",
+            "Smart alarms & real-time alerts",
+            "European cloud hosting",
+            "Continuous software updates",
+            "Cyber-secure infrastructure",
+            "Priority technical support (email + phone)"
+          ],
+          "cta": "Contact Sales"
+        },
+        "insights": {
+          "title": "+SolarControl Insights",
+          "subtitle": "Advanced Add-On",
+          "description": "Analytics & Historical Intelligence",
+          "details": "The +Insights add-on enhances SolarShield with deep analytics and long-term trend visibility.",
+          "includes": [
+            "Long-term production and performance analytics",
+            "Inverter-level analysis and comparative insights",
+            "Portfolio-wide trends",
+            "Historical continuity even if the data logger fails or goes offline",
+            "Advanced reporting tools and charts",
+            "Deviation detection & performance diagnostics"
+          ],
+          "upgradeNote": "You can start with the hardware-only package and activate SolarShield or +Insights whenever you need them.",
+          "cta": "Contact Sales"
+        }
+      }
+    },
+    "warranty": {
+      "headline": "Warranty & Support",
+      "description": "Every +SolarControl module includes a 2-year equipment replacement warranty.",
+      "details": "Any defective module within the equipment replacement warranty will be replaced within 5 business days free of charge.",
+      "coverageTitle": "Warranty Coverage",
+      "includedLabel": "What's Included in the 2-Year Warranty",
+      "includes": [
+        "Software updates to ensure compliance with DSO requirements",
+        "Technical support"
+      ],
+      "supportTitle": "Ongoing Support",
+      "supportDescription": "Our dedicated team ensures your system operates at peak performance with continuous technical support and system optimization.",
+      "supportBenefits": [
+        "Software upgrades - Latest features and improvements",
+        "Compliance updates - Stay current with grid requirements",
+        "Remote monitoring - Proactive issue detection",
+        "Expert support - Technical assistance when you need it",
+        "Continuous improvements - Regular platform enhancements"
+      ]
+    },
+    "cta": {
+      "headline": "Ready to Take Full Control of Your RES Plant?",
+      "description": "Whether you need certified compliance, full monitoring & control, or advanced analytics across your entire portfolio, +SolarControl gives you the reliability, flexibility, and intelligence your plant deserves.",
+      "formName": "Full Name",
+      "formEmail": "Email Address",
+      "formCompany": "Company",
+      "formMessage": "Message",
+      "formSubmit": "Book Your Demo",
+      "trustSignals": [
+        "Trusted by 1200+ RES plants",
+        "Independently certified",
+        "100% developed in EU"
+      ]
+    },
+    "technicalSpecs": {
+      "headline": "Technical Specifications",
+      "supportedTechLabel": "Supported RES Technologies",
+      "technologies": [
+        "Solar PV",
+        "Wind",
+        "Small hydro",
+        "Biogas",
+        "Biomass",
+        "Battery storage systems (ready)"
+      ],
+      "hardwareSpecsLabel": "Hardware Specifications",
+      "hardwareSpecs": [
+        "Standards compliance: EN IEC 61439-1 & EN 61439-5",
+        "Operating temperature: -20°C to +60°C",
+        "Installation time: Minutes",
+        "Enclosure: Sealed, pre-wired electrical panel",
+        "Controller: Industrial-grade MiniPC",
+        "Firmware: Custom, OTA-updatable"
+      ],
+      "protocolsLabel": "Communication Protocols",
+      "protocols": [
+        "IEC-60870-5-104",
+        "Modbus TCP/RTU",
+        "IEC61850",
+        "OPC-UA/DA/XML-DA"
+      ],
+      "compatibilityLabel": "Inverter Compatibility",
+      "compatibility": [
+        "65+ manufacturer integrations",
+        "Universal compatibility",
+        "No vendor lock-in",
+        "Legacy equipment support"
+      ],
+      "securityLabel": "Security Features",
+      "security": [
+        "Zero-trust architecture",
+        "VPN-based communication",
+        "Unique edge controller identifier",
+        "European cloud hosting",
+        "Cyber-secure infrastructure",
+        "Physical tamper protection"
+      ],
+      "softwareFeaturesLabel": "Software Features",
+      "softwareFeatures": [
+        "Real-time monitoring",
+        "Remote control capabilities",
+        "KPI tracking",
+        "Fault alerts",
+        "Curtailment management",
+        "Smart maintenance",
+        "Multi-plant dashboard",
+        "Advanced analytics (with Insights add-on)"
+      ]
+    },
+    "statsBar": {
+      "satisfaction": {
+        "value": "98%",
+        "label": "Customer satisfaction"
+      },
+      "countries": {
+        "value": "30+",
+        "label": "Countries with active installations"
+      },
+      "terawatt": {
+        "value": "100+",
+        "label": "Terawatt-hours monitored annually"
+      },
+      "engineers": {
+        "value": "85+",
+        "label": "Expert engineers in our team"
+      },
+      "certified": {
+        "value": "✓ Certified",
+        "label": "Officially Certified by Aristotle University"
+      }
+    },
+    "productOverview": {
+      "title": "A Complete, Plug-and-Play System for Monitoring, Control & Remote Management",
+      "hardware": {
+        "imagePlaceholder": "Hardware Device Photo",
+        "title": "Hardware Component",
+        "description": "A compact, pre-wired electrical panel with an industrial-grade MiniPC and custom firmware that automatically configures itself through the Cloud."
+      },
+      "software": {
+        "imagePlaceholder": "Dashboard Screenshot",
+        "title": "Software Component",
+        "description": "A full cloud platform with real-time monitoring, curtailment information, KPIs & fault alerts."
+      },
+      "technologies": {
+        "pv": "PV",
+        "wind": "Wind",
+        "hydro": "Small Hydro",
+        "biogas": "Biogas",
+        "biomass": "Biomass",
+        "batteries": "Batteries"
+      }
+    },
+    "accordion": {
+      "title": "Key Features & Capabilities",
+      "scada": {
+        "title": "No Programming. No Special Expertise. No Hidden Complexity.",
+        "traditional": "Traditional SCADA",
+        "traditionalItems": [
+          "On-site engineers",
+          "Manual wiring",
+          "USB scripts",
+          "Custom programming",
+          "Long installation times"
+        ],
+        "solarControl": "+SolarControl",
+        "solarControlItems": [
+          "Plug-and-play hardware",
+          "Cloud-based auto-configuration",
+          "Instant remote access",
+          "Zero manual setup",
+          "No downtime"
+        ],
+        "supportingText": "If you can install a small electrical panel and connect it to the internet, you can deploy +SolarControl.",
+        "cta": "Request Datasheet"
+      },
+      "hardware": {
+        "title": "Industrial Hardware Built for RES Plants",
+        "subheadline": "No vendor lock-in. No commercial protocol limitations.",
+        "body": "At the core of +SolarControl is an industrial MiniPC with custom firmware, housed in a sealed, pre-wired panel built to EN IEC 61439-1 & EN 61439-5 standards. It installs in minutes, operates in extreme temperatures (-20 to +60°C) and securely manages all communication with field devices.",
+        "column1": "Core Features",
+        "column1Items": [
+          "Custom Firmware: OTA updates & flexible configuration",
+          "Edge Controller: unique identifier & VPN client for secure access",
+          "Zero-Trust Security: impervious to cyberattacks & tampering attempts",
+          "Industrial Durability: certified, sealed, mechanically protected"
+        ],
+        "column2": "Compatibility",
+        "column2Items": [
+          "Compatibility with 65+ inverter manufacturers",
+          "Support for all major open protocols (IEC-60870-5-104, Modbus TCP/RTU, IEC61850, OPC-UA/DA/XML-DA)",
+          "Sealed enclosure for physical protection",
+          "Integration with aggregators & ready for storage/BESS control",
+          "API for future interoperability"
+        ]
+      },
+      "solarshield": {
+        "title": "SolarShield: The Online Monitoring & Control Platform",
+        "body": "With the SolarShield subscription, operators unlock the full power of the +SolarControl cloud platform. A platform designed to accelerate RES plant operations, ensuring maximum efficiency, complete transparency, and automatic compliance—every single time.",
+        "features": [
+          "Real-time monitoring, KPIs & fault alerts",
+          "Remote control of set-points, active/reactive power & inverter commands",
+          "Real-time curtailment & Smart Maintenance",
+          "Monitoring & control of the Main Switch at the PCC",
+          "Secured European cloud hosting with zero-trust cybersecurity",
+          "Ready for RES aggregators and flexibility markets",
+          "Compatible with battery storage and hybrid systems",
+          "Modular design for future upgrades"
+        ],
+        "api": {
+          "title": "Built for Tomorrow",
+          "body": "Our robust, standardized API guarantees seamless, future-proof interoperability. Aggregators benefit directly from rapid, low-friction integration, instantly unlocking new market exploitation potential."
+        }
+      },
+      "insights": {
+        "title": "+SolarControl Insights: Unlock Advanced Analytics",
+        "body": "For operators who want more than real-time monitoring and control, +Insights adds a powerful analytical layer to +SolarControl, helping you understand long-term performance, detect hidden issues, and maximize production.",
+        "featuresTitle": "Advanced Analytics That Go Beyond Standard SCADA",
+        "features": [
+          "Long-term performance trends",
+          "Detailed inverter analytics",
+          "Comparative analysis across plants",
+          "Efficiency and availability metrics",
+          "Curves, charts, and historical reports"
+        ],
+        "differentiator": {
+          "title": "Seamless Continuity — Even When Your Data Logger Is Offline",
+          "body": "Even if your inverter's data logger is offline, malfunctioning, or replaced, +Insights maintains continuous data flow via the SolarControl hardware. Your history stays intact. Your reports stay complete. Your forecasting never breaks."
+        }
+      }
+    }
+  },
+  "mindPage": {
+    "meta": {
+      "title": "+Mind | Intelligent Microgrid & VPP Management Platform",
+      "description": "AI-powered energy optimization for microgrids and virtual power plants. Reduce operational costs and unlock the full potential of your energy assets.",
+      "keywords": "Mind, microgrid, VPP, virtual power plant, energy optimization, AI, energy management, aggregation, smart grid"
+    },
+    "hero": {
+      "badge": "You're in Full Control",
+      "headline": "The Intelligent Brain Behind Your Microgrid & Virtual Power Plant",
+      "subheadline": "Optimize every energy asset, cut operational costs, and unlock the full potential of your microgrid or VPP — all through one intelligent platform.",
+      "primaryCTA": "Book a Demo",
+      "secondaryCTA": "Download Datasheet",
+      "compatibilityNote": "+Mind works perfectly with +SolarControl for complete control of your microgrid or VPP",
+      "supportedAssets": [
+        "Solar PV",
+        "Wind Turbines",
+        "Hydro Power Plants",
+        "Biogas",
+        "Biomass",
+        "Battery Storage",
+        "EV Chargers",
+        "Combined Heat & Power (CHP)",
+        "Controllable Loads (HVAC, etc.)"
+      ]
+    },
+    "problem": {
+      "headline": "The Modern Energy Landscape Is Too Complex to Manage Manually",
+      "opening": "Distributed energy systems are becoming more diverse and more dynamic. Renewables output fluctuates by the minute. Batteries must be charged and discharged at the right time with the right amount of energy to achieve maximum profit.",
+      "challenge": "EV chargers and heat pumps create unpredictable demand spikes. And when energy assets multiply across sites, portfolios, or whole communities, the complexity grows exponentially.",
+      "example": {
+        "typicalConsumption": "Typical house consumption: 10kWh",
+        "evCapacity": "EV battery capacity: up to 60kWh",
+        "v2gCapability": "Vehicle-to-Grid (V2G): Taking energy from the car and providing it to the house"
+      },
+      "painPoints": [
+        "Fragmented systems with limited interoperability",
+        "No unified visibility across production, consumption, storage, and loads",
+        "Reactive corrections instead of proactive planning",
+        "Suboptimal asset scheduling",
+        "Difficulty participating in flexibility markets or VPP",
+        "Regulations and new technologies evolving faster than existing tools"
+      ],
+      "bottomLine": "Without a unified intelligence layer, energy assets remain under-utilized, poorly coordinated, and operated below their full economic potential."
+    },
+    "solution": {
+      "headline": "The Smart Control Center for Your Microgrid and Virtual Power Plant",
+      "introduction": "+Mind is an Optimal Energy Management System (OEMS) designed to intelligently coordinate your entire distributed energy ecosystem.",
+      "coreFunctionality": "It forecasts production and consumption, generates the optimal operating schedule for each asset, and executes it automatically.",
+      "keyValue": "Instead of isolated devices, +Mind gives you one smart, unified brain that optimizes everything—automatically."
+    },
+    "keyFeatures": {
+      "headline": "Intelligent Features That Drive Results",
+      "subheadline": "Powered by proprietary AI and built for the modern energy landscape",
+      "features": [
+        {
+          "title": "AI-Driven Forecasting",
+          "description": "Proprietary AI models predict production and consumption with high accuracy using in-house AI algorithms for future generation (e.g., solar, wind), load consumption, and electricity prices."
+        },
+        {
+          "title": "Optimal Scheduling",
+          "description": "Automatically computes the optimal dispatch plan: when to charge/discharge, when to consume from the grid or the DER, when to export. Our AI optimization engine utilizes multi-objective optimization to determine the perfect dispatch schedule for every asset."
+        },
+        {
+          "title": "Unified DER Control",
+          "description": "Integrates PV, wind, batteries, heat pumps, EV chargers and controllable loads (e.g., HVAC) into one coordinated system. Seamless integration of batteries, EV chargers, heat pumps, PVs, wind, and heat loads regardless of manufacturer."
+        },
+        {
+          "title": "Real-Time Monitoring",
+          "description": "Instant, user-friendly insights into energy flows, consumption, production, state of charge and load behavior through our comprehensive online platform with real-time asset monitoring, scheduling, and financial & market performance tracking."
+        },
+        {
+          "title": "Comprehensive KPIs",
+          "description": "Tracking self-consumption rates, self-sufficiency rates and energy/economic gains with detailed analytics and reporting."
+        },
+        {
+          "title": "VPP & Market Integration",
+          "description": "Seamlessly coordinates DER portfolios across buildings and RES plants. Supports VPP interfacing with external electricity markets and grid operators (TSOs/DSOs), handling bidding, scheduling, and settlement."
+        },
+        {
+          "title": "Future-Proof & Hardware Agnostic",
+          "description": "Easily integrates new assets, new technologies, and new market frameworks. Our platform integrates seamlessly with any hardware, including legacy assets, maximizing your existing investment with compatibility across 65+ equipment manufacturers."
+        },
+        {
+          "title": "Complete Market Participation",
+          "description": "Market Integration API provides a standardized interface for connecting to various national and regional TSOs/DSOs and energy exchanges, enabling automated participation in: Wholesale energy markets, Ancillary Services (e.g., frequency regulation, reserves), and Demand Side Response."
+        }
+      ]
+    },
+    "whoIsItFor": {
+      "headline": "+Mind Delivers Value Across the Entire Modern Energy Ecosystem",
+      "households": {
+        "title": "Household Residents",
+        "description": "Automatically reduce your energy bills and maximize your profit by selling your surplus green energy back to the grid."
+      },
+      "commercial": {
+        "title": "Commercial & Industrial Building Owners",
+        "description": "Achieve instant efficiency improvements, reduce operational costs, and unlock new revenue streams by actively supporting the grid and participating in the energy markets."
+      },
+      "aggregators": {
+        "title": "Aggregators",
+        "description": "Gain a critical market edge with a single, highly flexible platform that monitors and controls diverse, geographically agnostic DER portfolios, guaranteeing maximum profitability."
+      },
+      "communities": {
+        "title": "Energy Community Managers",
+        "description": "Balance production, consumption and billing across members with transparent, automated control."
+      }
+    },
+    "howItWorks": {
+      "headline": "Hardware + Software Solution",
+      "subheadline": "Three simple steps to intelligent energy management",
+      "step1": {
+        "title": "Monitor",
+        "description": "Collects real-time data from all assets—generation, consumption, storage, controllable loads and grid interconnection."
+      },
+      "step2": {
+        "title": "Forecast",
+        "description": "Uses in-house AI algorithms to predict energy behavior and market conditions."
+      },
+      "step3": {
+        "title": "Optimize & Execute",
+        "description": "Our system automatically calculates and executes the perfect asset schedule, making instant, optimal decisions including:",
+        "bullets": [
+          "Charging/Discharging at peak profitability",
+          "Consumption from the cheapest available source",
+          "Revenue maximization by selling to grid at the right time"
+        ]
+      },
+      "result": "The result is flawless execution, 24/7, requiring absolutely no human intervention."
+    },
+    "pricing": {
+      "headline": "Flexible Packages to Match Your Needs",
+      "introduction": "Contact us for more details.",
+      "hardware": {
+        "subtitle": "Hardware",
+        "title": "+Mind Hardware Unit",
+        "description": "Industrial controller with OEMS firmware.",
+        "cta": "Contact Us"
+      },
+      "platform": {
+        "subtitle": "Platform",
+        "title": "+Mind Platform",
+        "description": "Forecasting, optimization, scheduling, real-time control.",
+        "cta": "Contact Us"
+      },
+      "insights": {
+        "subtitle": "Add-On",
+        "title": "+Insights Add-On",
+        "description": "Analytical reports, historical trends & asset-level benchmarking.",
+        "cta": "Contact Us"
+      }
+    },
+    "warranty": {
+      "headline": "Comprehensive Coverage & Ongoing Support",
+      "equipment": "Every +Mind system includes a 2-year equipment replacement warranty.",
+      "benefits": [
+        "Upgrades",
+        "Predictive models",
+        "New DER support",
+        "Remote assistance",
+        "Continuous improvements"
+      ]
+    },
+    "cta": {
+      "headline": "See How +Mind Can Transform Your Energy Management",
+      "subheadline": "See how +Mind can automate your energy decisions, reduce costs, and simplify operations across all your assets.",
+      "primaryCTA": "Book a Demo",
+      "secondaryCTA": "Contact Us"
+    },
+    "technology": {
+      "headline": "Enterprise-Grade Technology Built for Tomorrow",
+      "subheadline": "100% Optimems Proprietary Technology (Made in EU)",
+      "introduction": "From hardware to cloud infrastructure — no third-party dependencies. Every component is developed in-house for maximum reliability, security, and performance.",
+      "hardware": {
+        "headline": "Industrial-Grade Controller",
+        "description": "+Mind uses the same proven hardware foundation as +SolarControl, featuring:",
+        "features": [
+          "Plug-and-play industrial controller for instant deployment",
+          "Custom firmware deployed directly to your site, guaranteeing seamless integration with every piece of equipment—even legacy assets",
+          "Installation in minutes with minimal setup requirements",
+          "Industrial-grade reliability with robust MiniPC hardware",
+          "Compliance with EU regulatory requirements and technical standards",
+          "OTA updates for remote updates & configuration",
+          "Compatibility with 65+ equipment manufacturers"
+        ],
+        "protocols": [
+          "IEC-104",
+          "Modbus (TCP/RTU)",
+          "IEC61850",
+          "OPC-UA/DA/XML-DA",
+          "OCPP/OCPI (for EVs)"
+        ],
+        "security": [
+          "VPN-based communication and zero-trust architecture",
+          "Compliance with critical infrastructure cybersecurity standards",
+          "Guarantees continuous grid compliance, preventing financial penalties",
+          "Remote commissioning and updates"
+        ]
+      },
+      "software": {
+        "headline": "Comprehensive Cloud-Based Control",
+        "features": [
+          "100% in-house development - no external dependencies",
+          "User-friendly and comprehensive online platform",
+          "Secured European cloud hosting",
+          "Designed for interoperability, supporting a wide range of protocols",
+          "Works independently — integrates seamlessly with existing systems"
+        ]
+      },
+      "advantages": {
+        "headline": "Architectural Advantages",
+        "modular": {
+          "title": "Modular by Design",
+          "description": "Easily adapts to new regulations, assets, or business models. Simple installation, rapid scaling."
+        },
+        "secure": {
+          "title": "Secure & Resilient Architecture",
+          "description": "End-to-end cybersecurity with robust industrial MiniPC hardware and zero-trust architecture."
+        },
+        "remote": {
+          "title": "Remote Access & Control",
+          "description": "Full remote access and control of your entire energy ecosystem from anywhere."
+        },
+        "compatible": {
+          "title": "Total Compatibility",
+          "description": "Integrates seamlessly with any hardware, including legacy assets, maximizing your existing investment."
+        }
+      }
+    }
+  },
+  "consultPage": {
+    "meta": {
+      "title": "Energy Consulting Services | Optimems",
+      "description": "Expert energy consulting services for industrial facilities, smart grids, and renewable energy systems. Maximizing RES coverage, real-time simulation, and techno-economic studies.",
+      "keywords": "energy consulting, RES optimization, smart grid consulting, industrial energy management, techno-economic studies, renewable energy integration"
+    },
+    "hero": {
+      "badge": "Expert Energy Solutions",
+      "headline": "Strategic Energy Consulting for a Sustainable Future",
+      "subheadline": "Maximize your renewable energy potential with our comprehensive consulting services, from industrial optimization to smart grid deployment.",
+      "supportingLine": "Tailored solutions for every energy challenge.",
+      "primaryCTA": {
+        "label": "Book Consultation",
+        "href": "#contact"
+      },
+      "secondaryCTA": {
+        "label": "Download Brochure",
+        "href": "#"
+      },
+      "serviceHighlights": [
+        "Industrial RES Optimization",
+        "Real-Time Simulation",
+        "Techno-Economic Analysis",
+        "Smart Grid Integration"
+      ]
+    },
+    "services": {
+      "headline": "Comprehensive Energy Consulting Services",
+      "subheadline": "From initial assessment to full implementation, we provide end-to-end expertise for your energy projects.",
+      "learnMore": "Learn More",
+      "service1": {
+        "title": "Maximization of RES Coverage",
+        "description": "Optimize renewable energy systems for industrial facilities to maximize coverage and efficiency.",
+        "features": [
+          "Comprehensive site assessment",
+          "RES potential analysis",
+          "Coverage optimization strategies",
+          "ROI calculation and projections"
+        ],
+        "href": "#contact"
+      },
+      "service2": {
+        "title": "Real-Time Simulation Modeling",
+        "description": "Advanced simulation models for large facilities to predict and optimize energy performance.",
+        "features": [
+          "Dynamic load modeling",
+          "Energy flow simulation",
+          "Performance prediction",
+          "Scenario analysis"
+        ],
+        "href": "#contact"
+      },
+      "service3": {
+        "title": "Feasibility & Techno-Economic Studies",
+        "description": "Detailed feasibility studies for smart grids with comprehensive techno-economic analysis.",
+        "features": [
+          "Technical feasibility assessment",
+          "Economic viability analysis",
+          "Risk evaluation",
+          "Regulatory compliance review"
+        ],
+        "href": "#contact"
+      },
+      "service4": {
+        "title": "Integration & Deployment Studies",
+        "description": "Complete smart grid deployment studies from planning to implementation.",
+        "features": [
+          "System integration planning",
+          "Deployment roadmap",
+          "Technology selection",
+          "Performance monitoring"
+        ],
+        "href": "#contact"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Energy Strategy?",
+        "description": "Let's discuss how our consulting services can help you achieve your energy goals.",
+        "button": "Schedule Consultation",
+        "href": "#contact"
+      }
+    },
+    "technology": {
+      "headline": "Advanced Technology & Methodologies",
+      "subheadline": "Cutting-edge tools and approaches to deliver superior energy solutions.",
+      "tech1": {
+        "title": "AI-Powered Analytics",
+        "description": "Machine learning algorithms for predictive energy modeling and optimization.",
+        "highlights": [
+          "Predictive maintenance",
+          "Load forecasting",
+          "Anomaly detection",
+          "Performance optimization"
+        ]
+      },
+      "tech2": {
+        "title": "Digital Twin Technology",
+        "description": "Virtual replicas of energy systems for simulation and testing.",
+        "highlights": [
+          "Real-time synchronization",
+          "Scenario testing",
+          "Performance monitoring",
+          "Risk assessment"
+        ]
+      },
+      "tech3": {
+        "title": "Advanced Simulation",
+        "description": "Sophisticated modeling tools for complex energy systems.",
+        "highlights": [
+          "Multi-physics simulation",
+          "Dynamic system analysis",
+          "Integration testing",
+          "Validation studies"
+        ]
+      },
+      "tech4": {
+        "title": "Data Analytics Platform",
+        "description": "Comprehensive data processing and visualization tools.",
+        "highlights": [
+          "Real-time data processing",
+          "Interactive dashboards",
+          "Trend analysis",
+          "Reporting automation"
+        ]
+      },
+      "tech5": {
+        "title": "Optimization Algorithms",
+        "description": "Custom algorithms for energy system optimization.",
+        "highlights": [
+          "Multi-objective optimization",
+          "Constraint handling",
+          "Solution validation",
+          "Performance tracking"
+        ]
+      },
+      "tech6": {
+        "title": "IoT Integration",
+        "description": "Seamless integration with IoT devices and sensors.",
+        "highlights": [
+          "Device connectivity",
+          "Data collection",
+          "Remote monitoring",
+          "Control systems"
+        ]
+      },
+      "stats": {
+        "globalProjects": "50+",
+        "globalProjectsLabel": "Global Projects",
+        "dataPoints": "10M+",
+        "dataPointsLabel": "Data Points Analyzed",
+        "optimization": "95%",
+        "optimizationLabel": "Optimization Success",
+        "reliability": "99.9%",
+        "reliabilityLabel": "System Reliability"
+      }
+    },
+    "process": {
+      "headline": "Our Consulting Process",
+      "subheadline": "A systematic approach to deliver optimal energy solutions.",
+      "step1": {
+        "title": "Discovery & Assessment",
+        "description": "Comprehensive evaluation of your current energy infrastructure and requirements.",
+        "details": [
+          "Site visits and data collection",
+          "Stakeholder interviews",
+          "Current state analysis",
+          "Requirements definition"
+        ]
+      },
+      "step2": {
+        "title": "Analysis & Planning",
+        "description": "In-depth analysis and strategic planning for optimal solutions.",
+        "details": [
+          "Technical analysis",
+          "Economic evaluation",
+          "Risk assessment",
+          "Solution design"
+        ]
+      },
+      "step3": {
+        "title": "Implementation & Support",
+        "description": "Expert implementation and ongoing support throughout the project.",
+        "details": [
+          "Project management",
+          "Technical implementation",
+          "Team training",
+          "Performance monitoring"
+        ]
+      },
+      "step4": {
+        "title": "Optimization & Results",
+        "description": "Continuous optimization and measurement of results.",
+        "details": [
+          "Performance tracking",
+          "System optimization",
+          "Results analysis",
+          "Continuous improvement"
+        ]
+      },
+      "timeline": {
+        "title": "Project Timeline",
+        "phase1": "Assessment",
+        "duration1": "2-4 weeks",
+        "description1": "Initial evaluation and planning",
+        "phase2": "Implementation",
+        "duration2": "3-6 months",
+        "description2": "Solution development and deployment",
+        "phase3": "Optimization",
+        "duration3": "Ongoing",
+        "description3": "Continuous improvement and support"
+      }
+    },
+    "testimonials": {
+      "headline": "Client Success Stories",
+      "subheadline": "See how we've helped organizations achieve their energy goals.",
+      "testimonial1": {
+        "quote": "Optimems' consulting expertise transformed our industrial facility's energy management. The RES optimization alone reduced our energy costs by 35%.",
+        "author": "Michael Johnson",
+        "role": "Plant Manager",
+        "company": "Industrial Manufacturing Co.",
+        "rating": 5,
+        "featured": true
+      },
+      "testimonial2": {
+        "quote": "The real-time simulation modeling provided invaluable insights for our large-scale operations. Highly professional and knowledgeable team.",
+        "author": "Sarah Chen",
+        "role": "Operations Director",
+        "company": "Tech Solutions Ltd.",
+        "rating": 5
+      },
+      "testimonial3": {
+        "quote": "Their techno-economic studies were thorough and actionable. The smart grid implementation exceeded our expectations.",
+        "author": "David Martinez",
+        "role": "Energy Director",
+        "company": "Municipal Utilities",
+        "rating": 5
+      },
+      "testimonial4": {
+        "quote": "Professional, efficient, and results-oriented. The integration studies saved us significant time and resources.",
+        "author": "Emma Thompson",
+        "role": "Project Manager",
+        "company": "Renewable Energy Corp",
+        "rating": 5
+      },
+      "testimonial5": {
+        "quote": "Expert guidance throughout the entire project lifecycle. Their methodology is second to none.",
+        "author": "James Wilson",
+        "role": "CTO",
+        "company": "Smart Grid Technologies",
+        "rating": 5
+      },
+      "testimonial6": {
+        "quote": "The results speak for themselves. Significant ROI achieved within the first year.",
+        "author": "Lisa Anderson",
+        "role": "Sustainability Manager",
+        "company": "Green Energy Solutions",
+        "rating": 5
+      },
+      "stats": {
+        "clients": "200+",
+        "clientsLabel": "Satisfied Clients",
+        "projects": "500+",
+        "projectsLabel": "Completed Projects",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Client Satisfaction",
+        "years": "15+",
+        "yearsLabel": "Years Experience"
+      }
+    },
+    "faq": {
+      "badge": "Frequently Asked Questions",
+      "headline": "Got Questions? We Have Answers",
+      "subheadline": "Find answers to common questions about our energy consulting services.",
+      "category": {
+        "general": "General",
+        "services": "Services",
+        "process": "Process",
+        "pricing": "Pricing"
+      },
+      "question1": {
+        "question": "What types of industries do you work with?",
+        "answer": "We work with a diverse range of industries including manufacturing, utilities, commercial real estate, data centers, and renewable energy projects. Our expertise spans both industrial and commercial applications."
+      },
+      "question2": {
+        "question": "How long does a typical consulting engagement take?",
+        "answer": "Project timelines vary based on scope and complexity. Initial assessments typically take 2-4 weeks, while full implementation projects can range from 3-12 months depending on the scale and requirements."
+      },
+      "question3": {
+        "question": "What makes your RES optimization different?",
+        "answer": "Our approach combines advanced AI algorithms, real-time data analysis, and deep industry expertise. We provide customized solutions rather than one-size-fits-all approaches, ensuring maximum ROI for your specific facility."
+      },
+      "question4": {
+        "question": "Do you provide ongoing support after implementation?",
+        "answer": "Yes, we offer comprehensive ongoing support including maintenance, optimization, training, and continuous improvement services to ensure long-term success of your energy systems."
+      },
+      "question5": {
+        "question": "What is your typical project methodology?",
+        "answer": "Our methodology follows a structured four-phase approach: Discovery & Assessment, Analysis & Planning, Implementation & Support, and Optimization & Results. This ensures systematic delivery and measurable outcomes."
+      },
+      "question6": {
+        "question": "How do you ensure project success?",
+        "answer": "We ensure success through clear communication, defined milestones, regular progress reviews, risk management, and a dedicated project team. We also provide comprehensive documentation and training."
+      },
+      "question7": {
+        "question": "What are your pricing models?",
+        "answer": "We offer flexible pricing models including fixed-price projects, time-and-materials, and retainer agreements. Pricing is tailored to project scope, complexity, and duration. Contact us for a detailed quote."
+      },
+      "question8": {
+        "question": "Do you work internationally?",
+        "answer": "Yes, we have experience with international projects and work with clients globally. We understand local regulations, standards, and cultural considerations in different markets."
+      },
+      "cta": {
+        "title": "Still Have Questions?",
+        "description": "Contact us directly for personalized answers to your specific energy consulting needs.",
+        "primaryButton": "Schedule a Call",
+        "primaryHref": "#contact",
+        "secondaryButton": "View Resources",
+        "secondaryHref": "#"
+      }
+    },
+    "cta": {
+      "headline": "Ready to Transform Your Energy Strategy?",
+      "subheadline": "Let's discuss how our consulting services can help you achieve your energy goals.",
+      "buttonLabel": "Book Consultation",
+      "buttonHref": "#contact"
+    },
+    "contact": {
+      "headline": "Start Your Energy Transformation Journey",
+      "subheadline": "Get in touch with our expert team to discuss your specific energy consulting needs.",
+      "contactInfo": {
+        "title": "Contact Information",
+        "email": {
+          "title": "Email",
+          "value": "consulting@optimems.gr"
+        },
+        "phone": {
+          "title": "Phone",
+          "value": "+30 210 1234 567"
+        },
+        "location": {
+          "title": "Office",
+          "value": "Athens, Greece"
+        },
+        "hours": {
+          "title": "Business Hours",
+          "value": "Monday - Friday, 9:00 AM - 6:00 PM EET"
+        }
+      },
+      "demoBooking": {
+        "title": "Book a Demo",
+        "description": "Schedule a personalized consultation with our energy experts.",
+        "responseTime": "We respond within 24 hours"
+      },
+      "form": {
+        "title": "Send Us a Message",
+        "name": "Full Name",
+        "namePlaceholder": "Enter your full name",
+        "email": "Email Address",
+        "emailPlaceholder": "Enter your email address",
+        "company": "Company Name",
+        "companyPlaceholder": "Enter your company name",
+        "service": "Service Interest",
+        "selectService": "Select a service",
+        "demoDate": "Preferred Demo Date",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your project...",
+        "submit": "Send Message",
+        "success": {
+          "title": "Message Sent Successfully!",
+          "message": "We'll get back to you within 24 hours."
+        }
+      },
+      "services": [
+        "Maximization of RES Coverage",
+        "Real-Time Simulation Modeling",
+        "Feasibility & Techno-Economic Studies",
+        "Integration & Deployment Studies"
+      ]
+    }
+  },
+  "compatibilityLists": {
+    "title": "Hardware Compatibility List",
+    "subtitle": "Our products are compatible with the following list of asset manufacturers",
+    "searchPlaceholder": "Search manufacturer...",
+    "showingResults": "Showing {count} of {total} manufacturers",
+    "noResults": "No manufacturers found matching your search",
+    "footnote": "*In the case of inverters not included in the above list, the documentation with their registry map will be required, along with 7 working days for the Optimems+Clockwork team to ensure proper integration. Please note that these tables are continuously updated with new hardware integrations."
+  },
+  "docs": {
+    "hero": {
+      "title": "Documentation",
+      "description": "Technical documentation, guides, and resources to help you get the most out of Optimems solutions."
+    },
+    "cards": {
+      "userManuals": {
+        "title": "User Manuals",
+        "description": "Comprehensive guides for end users and administrators.",
+        "cta": "View Manuals"
+      },
+      "apiDocs": {
+        "title": "API Documentation",
+        "description": "Technical specifications for developers and integrators.",
+        "cta": "View API Docs"
+      },
+      "dataSheets": {
+        "title": "Data Sheets",
+        "description": "Technical specifications and datasheets for hardware.",
+        "cta": "Download PDFs"
+      }
+    },
+    "support": {
+      "title": "Need Additional Support?",
+      "description": "Can't find what you're looking for? Our support team is here to help.",
+      "cta": "Contact Support"
+    }
+  },
+  "support": {
+    "hero": {
+      "title": "Support Center",
+      "description": "We're here to help. Find the right support option for your needs."
+    }
+  },
+  "warrantiesPage": {
+    "hero": {
+      "headline": "Comprehensive Warranty Coverage",
+      "subheadline": "Peace of mind with every Optimems solution"
+    },
+    "overview": {
+      "title": "2-Year Comprehensive Warranty",
+      "badge": "2 Years",
+      "description": "Every Optimems solution comes with comprehensive warranty coverage, ensuring your investment is protected and your system operates at peak performance.",
+      "features": {
+        "hardware": {
+          "title": "Equipment Replacement",
+          "description": "Defective hardware replaced within 5 business days"
+        },
+        "software": {
+          "title": "Software Updates",
+          "description": "Continuous updates for features and security"
+        },
+        "support": {
+          "title": "Technical Support",
+          "description": "Expert assistance via email and remote diagnostics"
+        },
+        "compliance": {
+          "title": "DSO Compliance Updates",
+          "description": "Stay current with grid operator requirements"
+        }
+      }
+    },
+    "solarControl": {
+      "title": "+SolarControl Warranty",
+      "description": "Comprehensive coverage for your solar management system",
+      "badge": "Equipment Replacement",
+      "coverage": [
+        "2-year equipment replacement warranty",
+        "Software updates for DSO compliance",
+        "Technical support via email",
+        "Remote monitoring and diagnostics",
+        "Continuous platform improvements"
+      ]
+    },
+    "mind": {
+      "title": "+Mind Warranty",
+      "description": "Advanced AI core protection and continuous improvement",
+      "badge": "AI Core Coverage",
+      "coverage": [
+        "2-year equipment replacement warranty",
+        "Upgrades to latest AI models",
+        "Predictive maintenance models",
+        "Remote assistance and diagnostics",
+        "New DER support and integrations"
+      ]
+    },
+    "support": {
+      "title": "Support & Services",
+      "description": "Dedicated technical support when you need it",
+      "responseTime": "Response within 24 business hours",
+      "features": [
+        {
+          "icon": "HeadphonesIcon",
+          "title": "Email Support",
+          "description": "Direct access to our technical team"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Remote Diagnostics",
+          "description": "Proactive monitoring and issue detection"
+        },
+        {
+          "icon": "Shield",
+          "title": "On-site Assistance",
+          "description": "Field support when remote resolution isn't possible"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "Our support team is here to help with any warranty or technical questions.",
+      "button": "Contact Support",
+      "buttonHref": "/contact"
+    }
+  }
+}

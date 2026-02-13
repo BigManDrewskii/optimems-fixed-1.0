@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "products": "Προϊόντα",
+    "company": "Εταιρεία",
+    "resources": "Πόροι",
+    "aboutUs": "Σχετικά με Εμάς",
+    "partnership": "Συνεργασίες",
+    "caseStudies": "Μελέτες",
+    "careers": "Καριέρα",
+    "blog": "Blog",
+    "news": "Νέα",
+    "webinars": "Webinar",
+    "lessonLearned": "Μαθήματα",
+    "demo": "Demo",
+    "docs": "Τεκμηρίωση",
+    "support": "Υποστήριξη",
+    "contactUs": "Επικοινωνία",
+    "signIn": "Σύνδεση",
+    "getStarted": "Ξεκινήστε",
+    "menu": "Μενού",
+    "solarControl": "+SolarControl",
+    "mind": "+Mind",
+    "consult": "Συμβουλευτική",
+    "rndProjects": "Έργα Ε&Α",
+    "compatibilityLists": "Λίστες Συμβιβαστότητας",
+    "warranties": "Εγγυήσεις",
+    "contactAndSupport": "Επικοινωνία & Υποστήριξη"
+  },
+  "footer": {
+    "company": {
+      "name": "Optimems",
+      "description": "Συστήματα Διαχείρισης Ενέργειας νέας γενιάς για μικροδίκτυα και ΕΣΠ."
+    },
+    "sectionTitles": {
+      "products": "ΠΡΟΪΟΝΤΑ",
+      "company": "ΕΤΑΙΡΕΙΑ",
+      "resources": "ΠΗΓΕΣ"
+    },
+    "footerLinks": {
+      "products": "+SolarControl, +Mind",
+      "company": "Σχετικά με εμάς, Συνεργασίες, Έργα & Μελέτες, Καριέρα",
+      "resources": "Άρθρα, Branding, Τεκμηρίωση, Υποστήριξη",
+      "legal": "Πολιτική Απορρήτου, Όροι Χρήσης, Πολιτική Cookies"
+    },
+    "legalLinks": {
+      "privacyPolicy": "Πολιτική Απορρήτου",
+      "termsOfService": "Όροι Χρήσης",
+      "cookiePolicy": "Πολιτική Cookies"
+    },
+    "copyright": "© 2026 Optimems. Με επιφύλαξη παντός δικαιώματος."
+  },
+  "aria": {
+    "toggleTheme": "Toggle theme",
+    "toggleThemeSrOnly": "Toggle theme",
+    "switchToLightTheme": "Switch to light theme",
+    "switchToDarkTheme": "Switch to dark theme",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "close": "Close",
+    "videoUnavailable": "Video is unavailable",
+    "mapActive": "Active",
+    "mapComingSoon": "Coming soon"
+  },
+  "legal": {
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "termsOfService": "Όροι Χρήσης",
+    "cookiePolicy": "Πολιτική Cookies"
+  }
+}

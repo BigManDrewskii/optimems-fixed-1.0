@@ -1,0 +1,132 @@
+[    4838ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4839ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4853ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="[locale]/p...">
+      <SegmentTrieNode>
+      <MindPage>
+        <StructuredData>
+        <StructuredData>
+        <StructuredData>
+        <MindContent>
+          <AppLayout>
+            <Header>
+            <div className="flex-1">
+              <main className="min-h-screen">
+                <MindHero>
+                  <section className="relative m...">
+                    <div>
+                    <div>
+                    <div className="relative m...">
+                      <div className="text-center">
+                        <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.5, ...}} ...>
+                          <div className="mb-8" style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                            <img
++                             src="/images/logos/optimems-mind.svg"
+-                             src="/images/logos/optimems-mind-light.svg"
+                              alt="Optimems Mind"
+                              className="h-8 md:h-10 lg:h-12 w-auto mx-auto"
+                            >
+                        ...
+                <MarqueeSection>
+                <MindProblem>
+                ...
+                  <div className={"py-24 md..."}>
+                    <div className="max-w-6xl ...">
+                      <div className="grid grid-...">
+                        <motion.div>
+                        <motion.div initial={{opacity:0, ...}} whileInView={{opacity:1,scale:1}} viewport={{once:true}} ...>
+                          <div className="flex items..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                            <OrbitGraphic>
+                              <div className={"relative..."} style={{width:"100%", ...}}>
+                                <div>
+                                <svg>
+                                <img
++                                 src="/optimems-logos/optimems-logo-icon-dark.svg"
+-                                 src="/optimems-logos/optimems-logo-icon-light.svg"
+                                  alt="Optimems Logo"
+                                  width={60}
+                                  height={60}
+                                  className={"absolute z-10 transition-all duration-300 "}
+                                  style={{left:310,top:310,filter:"var(--orbi..."}}
+                                  onMouseEnter={function onMouseEnter}
+                                  onMouseLeave={function onMouseLeave}
+                                >
+                                <div className="absolute a..." style={{width:260, ...}}>
+                                  <div>
+                                  <div>
+                                  <div
+                                    className="absolute"
+                                    style={{
++                                     left: 64.99999999999994
+-                                     left: "65px"
++                                     top: 17.416697508023006
+-                                     top: "17.4167px"
++                                     transform: "translate(-50%, -50%)"
+-                                     transform: "translate(-50%, -50%)"
+                                    }}
+                                  >
+                                <div className="absolute a..." style={{width:420, ...}}>
+                                  <div>
+                                  <div>
+                                  <div
+                                    className="absolute"
+                                    style={{
++                                     left: 104.9999999999999
+-                                     left: "105px"
++                                     top: 28.134665205267936
+-                                     top: "28.1347px"
++                                     transform: "translate(-50%, -50%)"
+-                                     transform: "translate(-50%, -50%)"
+                                    }}
+                                  >
+                                <div className="absolute a..." style={{width:560, ...}}>
+                                  <div>
+                                  <div>
+                                  <div
+                                    className="absolute"
+                                    style={{
++                                     left: 139.9999999999999
+-                                     left: "140px"
++                                     top: 37.51288694035725
+-                                     top: "37.5129px"
++                                     transform: "translate(-50%, -50%)"
+-                                     transform: "translate(-50%, -50%)"
+                                    }}
+                                  >
+                ...
+            ...
+    ...
+ @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.12_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[    4906ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4906ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4932ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4932ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4943ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4943ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4953ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4953ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4966ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4966ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4977ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4977ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4987ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    4988ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    5002ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    5002ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    5042ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    5042ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    5247ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/optimems-logos/optimems-logo-icon-light.svg:0
+[    5315ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94
+[    5315ms] [WARNING] Video component should have either title, alt, or poster prop for accessibility @ webpack-internal:///(app-pages-browser)/./components/shared/Video.tsx:94

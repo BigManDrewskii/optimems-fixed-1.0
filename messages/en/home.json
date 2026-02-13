@@ -1,0 +1,259 @@
+{
+  "hero": {
+    "headline": "Beyond Monitoring: Achieve True Energy Command.",
+    "subheadline": "Optimems offers Next-gen EMS with complete control, monitoring and AI-based decision making for your microgrids and VPPs.",
+    "supportingLine": "Not another glorified monitoring system.",
+    "primaryCTA": "Book a Demo",
+    "secondaryCTA": "Learn More"
+  },
+  "socialProof": {
+    "sectionLabel": "Trusted By Industry Leaders",
+    "alternateLabel": "The Choice Of"
+  },
+  "governmentLogos": {
+    "label": "SUPPORTED BY",
+    "cta": "Read full project Scope"
+  },
+  "coreValueStatement": {
+    "text": "The robust, secure, and real-time control layer necessary for modern grid management and reliable integration of RES."
+  },
+  "userSegments": {
+    "directTitle": "Directly Serving",
+    "directSubtitle": "Users & Owners",
+    "indirectTitle": "Indirectly Serving",
+    "indirectSubtitle": "Enablers",
+    "segments": {
+      "homeOwners": {
+        "title": "Home Owners",
+        "tagline": "Effortless Savings and Self-Sufficiency.",
+        "description": "Take control of your home energy with intelligent automation that maximizes savings while ensuring independence from the grid."
+      },
+      "ciBuildingOwners": {
+        "title": "C&I Building Owners",
+        "tagline": "Unified management and optimization of all resources to drastically reduce operating expenses.",
+        "description": "Consolidate your commercial and industrial energy assets into one intelligent platform that drives down costs and improves efficiency."
+      },
+      "aggregators": {
+        "title": "Aggregators",
+        "tagline": "Seamlessly integrates, optimizes, and dispatches all distributed assets for maximum market revenue.",
+        "description": "Unlock the full potential of your distributed energy portfolio with intelligent aggregation and market optimization."
+      },
+      "resParkOwners": {
+        "title": "RES Park Owners",
+        "tagline": "Continuous Grid Compliance and Total Control & Monitor.",
+        "description": "Maintain regulatory compliance while maximizing output from your renewable energy installations."
+      },
+      "dsosTsos": {
+        "title": "DSOs & TSOs",
+        "tagline": "Grid Stability & Trust.",
+        "description": "Distribution System Operators and Transmission System Operators gain reliable partners for grid stability and seamless integration."
+      }
+    }
+  },
+  "marketAdaptability": {
+    "title": "Global Reach, Local Compliance",
+    "text": "We understand that every energy market is different. That's why our platform dynamically adapts to local regulations and market rules — ensuring full compliance and maximizing value wherever you operate."
+  },
+  "vision": {
+    "sectionTitle": "The world we are standing for",
+    "statement": "Simplify. Democratize. Empower.",
+    "tagline": "Accelerating the Energy Transition for Everyone.",
+    "themes": {
+      "gridStability": {
+        "title": "Grid Stability",
+        "description": "Ensuring reliable power for communities worldwide."
+      },
+      "promotingGreenEnergy": {
+        "title": "Promoting Green Energy",
+        "description": "Enabling the widespread adoption of renewable sources."
+      },
+      "simplifyingTheComplex": {
+        "title": "Simplifying the Complex",
+        "description": "Making energy transition accessible to all stakeholders."
+      }
+    },
+    "exploreSolutions": "Explore Solutions",
+    "exploreDescription": "Discover how Optimems can transform your energy infrastructure.",
+    "exploreCTA": "Get Started"
+  },
+  "stats": {
+    "installations": {
+      "label": "Installations",
+      "value": "1000",
+      "suffix": "+",
+      "description": "Equipment deployed across Europe"
+    },
+    "compatibility": {
+      "label": "Compatibility",
+      "value": "100",
+      "suffix": "%",
+      "description": "Works with 65+ inverter brands"
+    },
+    "madeIn": {
+      "label": "Made In",
+      "value": "EU",
+      "description": "European engineering and manufacturing"
+    }
+  },
+  "valuePropositions": {
+    "eyebrow": "Our Advantages",
+    "title": "Why Optimems",
+    "description": "Transform your energy infrastructure into a profit-generating powerhouse with DER and battery solutions that deploy in days, not months.",
+    "profit": {
+      "title": "Maximize Profit & Market Access",
+      "description": "Our system is DER and Battery Integration-Ready right out of the box."
+    },
+    "revenue": {
+      "title": "Turn Assets into Profit Centers",
+      "description": "Immediately participate in lucrative energy markets, transforming operational necessities into revenue streams."
+    },
+    "investment": {
+      "title": "Protect Your Current Investment",
+      "description": "Give valuable second life to your existing infrastructure. You multiply their value, don't lose money on current investments."
+    },
+    "deployment": {
+      "title": "Ultra-Low Friction Deployment",
+      "description": "Commission your assets remotely, minimizing on-site labor and significantly accelerating your path to revenue."
+    },
+    "ctaCard": {
+      "title": "See Optimems in Action",
+      "description": "Ready to transform your energy management?",
+      "buttonLabel": "Book a Demo"
+    }
+  },
+  "products": {
+    "title": "Our Solutions",
+    "subtitle": "Two powerful products. One unified ecosystem.",
+    "description": "Whether you need asset-level control or portfolio-wide intelligence, our products work together seamlessly.",
+    "learnMore": "Learn more",
+    "solarControl": {
+      "name": "+SolarControl",
+      "tagline": "Complete hardware + software solution to control & monitor your RES plant",
+      "description": "Robust, real-time control & monitoring for each energy asset. The foundation of intelligent energy management.",
+      "features": [
+        "Real-time monitoring",
+        "Hardware + software bundle",
+        "RES plant optimization",
+        "Grid compliance automation"
+      ]
+    },
+    "mind": {
+      "name": "+Mind",
+      "tagline": "The Intelligent Brain Behind Your Microgrid & VPP",
+      "description": "Integrate all diverse energy assets, act as a single, smart brain that pushes performance and profit to their maximum limits. Work seamlessly together.",
+      "features": [
+        "AI-powered optimization",
+        "Multi-asset integration",
+        "VPP management",
+        "Market participation"
+      ]
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What Our Partners Say",
+    "subtitle": "Trusted across Europe",
+    "items": {
+      "daniel-eric": {
+        "quote": "We have been working with Optimems for a couple of years and are very happy with the professional and friendly collaboration. It has been a great catalyst in the development work for us.",
+        "author": "Dan-Eric Archer",
+        "role": "CEO",
+        "company": "CheckWatt",
+        "location": "Sweden"
+      },
+      "egnatiagroup": {
+        "quote": "In partnership with OPTIMEMS, we successfully implemented and activated the telecontrol systems required by DEDDHEE for PV stations with power above 400 kWp. The OPTIMEMS team demonstrated a high level of technical expertise, excellent understanding of regulatory requirements, and prompt responsiveness at all stages of the project, from the study to the full activation of the systems. Our collaboration was characterized by professionalism, reliability, and effectiveness, contributing decisively to the timely compliance of our parks with the Operator's specifications. Based on our experience to date, we plan to continue our partnership with OPTIMEMS and choose them for new activities and solutions they will develop in the future.",
+        "author": "Ioannis Kyparidis",
+        "role": "PV Portfolio & Operations Manager",
+        "company": "Egnatia Group",
+        "location": "Greece"
+      },
+      "engaia": {
+        "quote": "At ENGAIA, we select our partners with professionalism and quality as our primary criteria. Optimems is exactly that.",
+        "author": "ENGAIA Team",
+        "role": "Partner",
+        "company": "ENGAIA",
+        "location": "Greece"
+      },
+      "bayware": {
+        "quote": "Adding a new supplier is a particularly sensitive matter for BayWa r.e. As the largest wholesaler in Europe, having associated our name with top-tier products from Tier 1 manufacturers for over 30 years, we maintain very strict criteria when selecting photovoltaic equipment. Our collaboration with Optimems for telemanagement systems came to address an urgent and specialized demand for a complete solution that required high technical expertise and immediate service.",
+        "author": "BayWa r.e. Team",
+        "role": "Distribution Partner",
+        "company": "BayWa r.e.",
+        "location": "Europe"
+      },
+      "clockwork": {
+        "quote": "Co-developing +SolarControl with Optimems was simply the catalyst for gaining a brotherly partner. Something that's practically a one-way street when you meet someone who shares the same passion and dedication to their work as you do. Our enduring partnership with Optimems is not just an exceptional professional experience, but every time it's a new opportunity to surpass ourselves.",
+        "author": "Clockwork Energy Team",
+        "role": "Development Partner",
+        "company": "Clockwork Energy",
+        "location": "Greece"
+      }
+    }
+  },
+  "workflow": {
+    "title": "How It Works",
+    "subtitle": "From installation to optimization in four simple steps",
+    "scheduleAssessment": "Schedule Assessment",
+    "steps": {
+      "1": {
+        "title": "Assess & Plan",
+        "description": "Our team analyzes your existing infrastructure and designs a tailored integration roadmap."
+      },
+      "2": {
+        "title": "Deploy & Configure",
+        "description": "Rapid on-site installation with remote commissioning — operational in minutes, not days."
+      },
+      "3": {
+        "title": "Connect & Integrate",
+        "description": "Seamless connection to your existing assets, inverters, and grid infrastructure."
+      },
+      "4": {
+        "title": "Optimize & Profit",
+        "description": "AI-driven optimization kicks in automatically, maximizing performance and market revenue."
+      }
+    }
+  },
+  "warranty": {
+    "title": "2-Year Comprehensive Warranty",
+    "description": "2-year warranty includes software updates to ensure continuous compliance with the Distributor Network Operator (DSO) requirements and basic technical support by email.",
+    "features": {
+      "continuousUpdates": "Continuous software updates",
+      "complianceUpdates": "DSO compliance updates",
+      "emailSupport": "Email technical support",
+      "hardwareReplacement": "Hardware replacement coverage"
+    },
+    "badge": "2 Years"
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Latest Insights",
+    "subtitle": "News, updates, and lessons from the field",
+    "viewAllArticles": "View All Articles",
+    "readArticle": "Read article",
+    "backToBlog": "← Back to Blog",
+    "minRead": "min read",
+    "by": "By",
+    "noPosts": "No blog posts available yet.",
+    "relatedPostsLabel": "Related Posts",
+    "relatedPostsTitle": "You Might Also Like",
+    "relatedPostsDescription": "Continue reading with these related articles."
+  },
+  "dashboardCTA": {
+    "headline": "Ready to Transform Your Energy Management?",
+    "subheadline": "Let's discuss how Optimems can help you achieve true energy command.",
+    "primaryCTA": {
+      "label": "Book a Demo",
+      "href": "/demo"
+    },
+    "secondaryCTA": {
+      "label": "Watch Demo",
+      "href": "/demo"
+    },
+    "features": {
+      "monitoring": "Real-time monitoring and control",
+      "automation": "Intelligent automation and alerts",
+      "integration": "Seamless integration with existing infrastructure"
+    }
+  }
+}
