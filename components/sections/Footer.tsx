@@ -1,21 +1,12 @@
+
 "use client"
 
-import { footer } from "@/data/landing-page"
-import { filterFooterSections } from "@/lib/footer-utils"
 import { Mail, ChevronDown } from "lucide-react"
 import { Link } from "@/i18n/navigation"
 import { Video, OptimemsLogo } from "@/components/shared"
-import { getVideoSrc } from "@/data/videos"
 import { useState, useEffect } from "react"
 import { useTranslations, useLocale } from "next-intl"
 import { useTheme } from "next-themes"
-
-// Filter footer links to remove hidden pages
-const footerLinks = filterFooterSections([
-  { title: "Products", links: footer.links.products },
-  { title: "Company", links: footer.links.company },
-  { title: "Resources", links: footer.links.resources },
-])
 
 function FooterSection({ title, links, isOpen, onToggle }: { title: string; links: { label: string; href: string }[]; isOpen: boolean; onToggle: () => void }) {
   return (
@@ -48,16 +39,39 @@ function FooterSection({ title, links, isOpen, onToggle }: { title: string; link
 export function Footer() {
   const [openSections, setOpenSections] = useState<Record<number, boolean>>({})
   const [mounted, setMounted] = useState(false)
-  const t = useTranslations()
-  const locale = useLocale()
+  const t = useTranslations('footer')
   const { resolvedTheme } = useTheme()
-  const isGreek = locale === "el"
 
   useEffect(() => {
     setMounted(true)
   }, [])
 
-  // Show placeholder before mount to prevent layout shift
+  const footerSections = [
+    {
+      title: t('products.title'),
+      links: t.raw('products.links')
+    },
+    {
+      title: t('company.title'),
+      links: t.raw('company.links')
+    },
+    {
+      title: t('resources.title'),
+      links: t.raw('resources.links')
+    },
+    {
+      title: t('legal.title'),
+      links: t.raw('legal.links')
+    }
+  ]
+
+  const socialLinks = [
+    { platform: 'X', href: 'https://x.com/optimems' },
+    { platform: 'Facebook', href: 'https://www.facebook.com/optimems' },
+    { platform: 'YouTube', href: 'https://www.youtube.com/@optimems' },
+    { platform: 'LinkedIn', href: 'https://www.linkedin.com/company/optimems' },
+  ]
+
   if (!mounted) {
     return (
       <footer className="relative pb-0 pt-8 sm:pt-12 bg-transparent" role="contentinfo">
@@ -86,18 +100,6 @@ export function Footer() {
     setOpenSections(prev => ({ ...prev, [index]: !prev[index] }))
   }
 
-  const footerTitleLabels = [
-    t("footer.sectionTitles.products"),
-    t("footer.sectionTitles.company"),
-    t("footer.sectionTitles.resources")
-  ]
-
-  const legalLinkLabels = {
-    "PrivacyPolicy": t("footer.legalLinks.privacyPolicy"),
-    "TermsofService": t("footer.legalLinks.termsOfService"),
-    "CookiePolicy": t("footer.legalLinks.cookiePolicy"),
-  }
-
   return (
     <footer className="relative pb-0 pt-8 sm:pt-12 bg-transparent" role="contentinfo">
       <div className="relative z-20 mx-auto max-w-[1400px] px-3 sm:px-6 lg:px-8">
@@ -114,23 +116,23 @@ export function Footer() {
             </a>
 
             <p className="text-muted-foreground text-xs mb-2">
-              {t('footer.company.description')}
+              {t('address')}
             </p>
 
             <a
-              href={`mailto:${footer.contact.email}`}
+              href={`mailto:info@optimems.com`}
               className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-secondary text-xs transition-colors"
             >
               <Mail className="h-3 w-3" />
-              <span className="truncate max-w-[180px]">{footer.contact.email}</span>
+              <span className="truncate max-w-[180px]">info@optimems.com</span>
             </a>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-2 sm:gap-6 mb-6 sm:mb-8">
-            {footerLinks.map((section, index) => (
+            {footerSections.map((section, index) => (
               <FooterSection
                 key={section.title}
-                title={footerTitleLabels[index]}
+                title={section.title}
                 links={section.links}
                 isOpen={openSections[index] || false}
                 onToggle={() => toggleSection(index)}
@@ -141,23 +143,17 @@ export function Footer() {
           <div className="pt-4 sm:pt-4">
             <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4">
               <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 w-full sm:w-auto text-[10px] sm:text-xs">
-                {footer.links.legal.map((link) => (
-                  <Link
-                    key={link.label}
-                    href={link.href}
-                    className="text-muted-foreground hover:text-secondary transition-colors whitespace-nowrap px-1"
-                  >
-                    {legalLinkLabels[link.label as keyof typeof legalLinkLabels] || link.label}
-                  </Link>
-                ))}
+                <p className="text-muted-foreground text-[10px] sm:text-xs text-center sm:text-left">
+                  {t('vat')}
+                </p>
               </div>
 
               <p className="text-muted-foreground text-[10px] sm:text-xs text-center sm:text-left">
-                {t('footer.copyright')}
+                {t('copyright', { year: new Date().getFullYear() })}
               </p>
 
               <div className="flex items-center gap-4 sm:gap-3">
-                {footer.social.map((social) => {
+                {socialLinks.map((social) => {
                   const isDark = resolvedTheme === "dark"
                   const iconMap: { [key: string]: string } = {
                     'X': isDark ? '/images/logos/social-x.svg' : '/images/logos/social-x-dark.svg',

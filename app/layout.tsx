@@ -35,9 +35,25 @@ export default function RootLayout({
                 document.documentElement.setAttribute('lang', locale);
 
                 // Theme initialization
-                const theme = localStorage.getItem('theme') || 'dark';
-                if (theme === 'dark') {
-                  document.documentElement.classList.add('dark');
+                try {
+                  const theme = localStorage.getItem('theme');
+                  if (theme) {
+                    if (theme === 'dark') {
+                      document.documentElement.classList.add('dark');
+                    } else {
+                      document.documentElement.classList.remove('dark');
+                    }
+                  } else {
+                    // Fallback to system preference if no theme is set in localStorage
+                    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                      document.documentElement.classList.add('dark');
+                    }
+                  }
+                } catch (e) {
+                  // Failsafe in case localStorage is disabled
+                  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.classList.add('dark');
+                  }
                 }
               })();
             `,

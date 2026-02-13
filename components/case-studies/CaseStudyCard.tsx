@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
-import { useLocale } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 
 interface CaseStudyCardProps {
   client: string
@@ -12,8 +12,8 @@ interface CaseStudyCardProps {
 }
 
 export function CaseStudyCard({ client, tags, description, focusAreas }: CaseStudyCardProps) {
-  const locale = useLocale()
-  const isGreek = locale === "el"
+    const t = useTranslations("caseStudies")
+  const isGreek = useLocale() === 'el'
 
   return (
     <motion.div
@@ -49,7 +49,7 @@ export function CaseStudyCard({ client, tags, description, focusAreas }: CaseStu
         {/* Key Focus Areas */}
         <div className="mt-auto">
           <p className={`text-xs uppercase tracking-wider text-muted-foreground mb-3 ${isGreek ? 'greek-text' : ''}`}>
-            {isGreek ? "Βασικοί Τομείς Εστίασης" : "Key Focus Areas"}
+            {t("keyFocusAreas")}
           </p>
           <ul className="space-y-2">
             {focusAreas.map((area, index) => (
@@ -64,7 +64,7 @@ export function CaseStudyCard({ client, tags, description, focusAreas }: CaseStu
         {/* Arrow Indicator */}
         <div className="mt-6 flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <span className={`text-sm font-medium ${isGreek ? 'greek-text' : ''}`}>
-            {isGreek ? "Περισσότερα" : "Learn More"}
+            {t("learnMore")}
           </span>
           <ArrowRight className="w-4 h-4" />
         </div>

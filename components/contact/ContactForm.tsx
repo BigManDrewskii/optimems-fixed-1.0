@@ -58,7 +58,7 @@ export function ContactForm() {
           <Input
             id="contact-name"
             name="name"
-            placeholder={isGreek ? "Το όνομά σας" : "Your name"}
+            placeholder={t("namePlaceholder")}
             required
           />
         </div>
@@ -69,7 +69,7 @@ export function ContactForm() {
           <Input
             id="contact-surname"
             name="surname"
-            placeholder={isGreek ? "Το επώνυμό σας" : "Your surname"}
+            placeholder={t("surnamePlaceholder")}
             required
           />
         </div>
@@ -83,7 +83,7 @@ export function ContactForm() {
         <Input
           id="contact-organisation"
           name="organisation"
-          placeholder={isGreek ? "Ο οργανισμός σας (προαιρετικό)" : "Your organisation (optional)"}
+          placeholder={t("organisationPlaceholder")}
         />
       </div>
 
@@ -98,9 +98,7 @@ export function ContactForm() {
           required
           className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
         >
-          <option value="">
-            {isGreek ? "Επιλέξτε θέμα" : "Select a subject"}
-          </option>
+          <option value="">{t("selectSubjectPlaceholder")}</option>
           <option value="partnership">{t('subjects.partnership')}</option>
           <option value="solutions">{t('subjects.solutions')}</option>
           <option value="datasheets">{t('subjects.datasheets')}</option>
@@ -117,7 +115,7 @@ export function ContactForm() {
         <Textarea
           id="contact-message"
           name="message"
-          placeholder={isGreek ? "Πείτε μας περισσότερα για τις ανάγκες σας..." : "Tell us more about your needs..."}
+          placeholder={t("messagePlaceholder")}
           rows={6}
           required
         />

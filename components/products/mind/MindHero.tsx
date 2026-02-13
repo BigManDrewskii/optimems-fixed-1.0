@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl"
 import { CustomPrimaryButton } from "@/components/shared"
 import { Video } from "@/components/shared/Video"
 import { useTheme } from "next-themes"
+import { useState, useEffect } from "react"
 
 /**
  * MindHero - Hero section with video background
@@ -17,6 +18,11 @@ export function MindHero() {
   const locale = useLocale()
   const isGreek = locale === 'el'
   const { resolvedTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const supportedAssets = t.raw('supportedAssets') as string[]
 
@@ -54,7 +60,7 @@ export function MindHero() {
             className="mb-8"
           >
             <img
-              src={resolvedTheme === 'dark' ? '/images/logos/optimems-mind.svg' : '/images/logos/optimems-mind-light.svg'}
+              src={mounted && resolvedTheme === 'dark' ? '/images/logos/optimems-mind.svg' : '/images/logos/optimems-mind-light.svg'}
               alt="Optimems Mind"
               className="h-8 md:h-10 lg:h-12 w-auto mx-auto"
             />

@@ -785,49 +785,8 @@ body {
   letter-spacing: -0.02em;
 }
 
-/* Orbit animations for MindProblem section */
 
-/* Orbit colors - light mode */
-:root {
-  --orbit-ring-color: oklch(0.20 0.02 250 / 0.18);
-  --orbit-icon-color: oklch(0.65 0.18 25);
-  --orbit-icon-glow: 0 0 14px oklch(0.65 0.18 25 / 0.25);
-  --orbit-hub-bg: oklch(0.97 0.005 250);
-  --orbit-hub-border: oklch(0.82 0.02 250);
-  --orbit-icon-bg: oklch(0.97 0.005 250 / 0.95);
-  --orbit-icon-border: oklch(0.80 0.02 250);
-  --orbit-icon-shadow: 0 1px 4px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.03);
-  --orbit-pulse: oklch(0.58 0.15 195 / 0.12);
-  --orbit-hub-glow: 0 0 20px oklch(0.58 0.15 195 / 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
-  --grid-dot: oklch(0.20 0.02 250 / 0.22);
-  --orbit-logo-filter: brightness(0.1); /* Slight brightness boost for light mode */
-}
 
-.dark {
-  /* Orbit colors - dark mode */
-  --orbit-ring-color: oklch(1 0 0 / 0.14);
-  --orbit-icon-color: oklch(0.58 0.15 195);
-  --orbit-icon-glow: 0 0 14px oklch(0.58 0.15 195 / 0.25);
-  --orbit-hub-bg: oklch(0.18 0.04 250);
-  --orbit-hub-border: oklch(1 0 0 / 0.12);
-  --orbit-icon-bg: oklch(0.18 0.04 250 / 0.92);
-  --orbit-icon-border: oklch(1 0 0 / 0.10);
-  --orbit-icon-shadow: 0 0 0 0 transparent;
-  --orbit-pulse: oklch(0.65 0.18 25 / 0.15);
-  --orbit-hub-glow: 0 0 24px oklch(0.65 0.18 25 / 0.2), 0 4px 12px rgba(0, 0, 0, 0.4);
-  --grid-dot: oklch(0.50 0.12 250 / 0.24);
-  --orbit-logo-filter: brightness(0) invert(1);
-}
-
-@keyframes orbit-cw {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes orbit-ccw {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(-360deg); }
-}
 
 @keyframes pulse-glow {
   0%, 100% { transform: scale(1); opacity: 0.6; }
@@ -950,6 +909,10 @@ body {
   to { stroke-dashoffset: -16; }
 }
 
+
+
+
+
 @keyframes orbit-cw {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -959,4 +922,3 @@ body {
   from { transform: rotate(0deg); }
   to { transform: rotate(-360deg); }
 }
-

@@ -63,7 +63,7 @@ export default function ContactPage() {
                               {t('info.email')}
                             </h3>
                             <p className={`text-muted-foreground text-sm mb-2 ${isGreek ? 'greek-text' : ''}`}>
-                              {isGreek ? "Συνήθως απαντάμε εντός 24 ωρών" : "We typically reply within 24 hours"}
+                              {t('info.emailNote')}
                             </p>
                             <a href="mailto:info@optimems.gr" className="text-primary hover:underline text-sm">
                               info@optimems.gr
@@ -80,7 +80,7 @@ export default function ContactPage() {
                               {t('info.phone')}
                             </h3>
                             <p className={`text-muted-foreground text-sm mb-2 ${isGreek ? 'greek-text' : ''}`}>
-                              {isGreek ? "Δευ-Παρ, 9πμ-6μμ EET" : "Mon-Fri, 9am-6pm EET"}
+                              {t('info.phoneNote')}
                             </p>
                             <a href="tel:+302311257510" className="text-primary hover:underline text-sm">
                               +30 2311 257 510
@@ -97,7 +97,7 @@ export default function ContactPage() {
                               {t('info.location')}
                             </h3>
                             <p className={`text-muted-foreground text-sm ${isGreek ? 'greek-text' : ''}`}>
-                              Thessaloniki, Greece
+                              {t('info.address')}
                             </p>
                           </div>
                         </div>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                               {t('info.hours')}
                             </h3>
                             <p className={`text-muted-foreground text-sm ${isGreek ? 'greek-text' : ''}`}>
-                              {isGreek ? "Δευτέρα - Παρασκευή\n9:00 πμ - 6:00 μμ EET" : "Monday - Friday\n9:00 AM - 6:00 PM EET"}
+                              {t('info.hoursDetail')}
                             </p>
                           </div>
                         </div>

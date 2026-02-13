@@ -120,7 +120,6 @@ export function Header({ className }: HeaderProps) {
           isScrolled ? "bg-background/95 dark:bg-background/95" : ""
         )}
         style={{
-          backgroundImage: "url('/images/sections/grid-pattern-dark.png')",
           backgroundRepeat: "repeat",
         }}
       >

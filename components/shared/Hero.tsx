@@ -12,6 +12,7 @@ import { useTranslations, useLocale } from "next-intl"
 import { Link } from "@/i18n/navigation"
 import { getVideoSrc } from "@/data/videos"
 import { useTheme } from "next-themes"
+import { useState, useEffect } from "react"
 
 export interface HeroProps {
   /**
@@ -112,7 +113,12 @@ export function Hero({
   const locale = useLocale()
   const isGreek = locale === "el"
   const { resolvedTheme } = useTheme()
-  const isLight = resolvedTheme === "light"
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+  const isLight = mounted && resolvedTheme === "light"
 
   const spacingClasses = {
     compact: "pt-16 md:pt-20 pb-8 md:pb-12 lg:pb-16",

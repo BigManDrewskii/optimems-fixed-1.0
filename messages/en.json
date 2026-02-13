@@ -27,11 +27,24 @@
     "contactAndSupport": "Contact & Support"
   },
   "hero": {
-    "headline": "Beyond Monitoring: Achieve True Energy Command.",
-    "subheadline": "Optimems offers Next-gen EMS with complete control, monitoring and AI-based decision making for your microgrids and VPPs.",
-    "supportingLine": "Not another glorified monitoring system.",
-    "primaryCTA": "Book a Demo",
-    "secondaryCTA": "Learn More"
+    "badge": "Expert Energy Solutions",
+    "headline": "Strategic Energy Consulting for a Sustainable Future",
+    "subheadline": "Maximize your renewable energy potential with our comprehensive consulting services, from industrial optimization to smart grid deployment.",
+    "supportingLine": "Tailored solutions for every energy challenge.",
+    "primaryCTA": {
+      "label": "Book Consultation",
+      "href": "#contact"
+    },
+    "secondaryCTA": {
+      "label": "Download Brochure",
+      "href": "#"
+    },
+    "serviceHighlights": [
+      "Industrial RES Optimization",
+      "Real-Time Simulation",
+      "Techno-Economic Analysis",
+      "Smart Grid Integration"
+    ]
   },
   "socialProof": {
     "sectionLabel": "Trusted By Industry Leaders",
@@ -177,45 +190,60 @@
     }
   },
   "testimonials": {
-    "label": "Testimonials",
-    "title": "What Our Partners Say",
-    "subtitle": "Trusted across Europe",
-    "items": {
-      "daniel-eric": {
-        "quote": "We have been working with Optimems for a couple of years and are very happy with the professional and friendly collaboration. It has been a great catalyst in the development work for us.",
-        "author": "Dan-Eric Archer",
-        "role": "CEO",
-        "company": "CheckWatt",
-        "location": "Sweden"
-      },
-      "egnatiagroup": {
-        "quote": "In partnership with OPTIMEMS, we successfully implemented and activated the telecontrol systems required by DEDDHEE for PV stations with power above 400 kWp. The OPTIMEMS team demonstrated a high level of technical expertise, excellent understanding of regulatory requirements, and prompt responsiveness at all stages of the project, from the study to the full activation of the systems. Our collaboration was characterized by professionalism, reliability, and effectiveness, contributing decisively to the timely compliance of our parks with the Operator's specifications. Based on our experience to date, we plan to continue our partnership with OPTIMEMS and choose them for new activities and solutions they will develop in the future.",
-        "author": "Ioannis Kyparidis",
-        "role": "PV Portfolio & Operations Manager",
-        "company": "Egnatia Group",
-        "location": "Greece"
-      },
-      "engaia": {
-        "quote": "At ENGAIA, we select our partners with professionalism and quality as our primary criteria. Optimems is exactly that.",
-        "author": "ENGAIA Team",
-        "role": "Partner",
-        "company": "ENGAIA",
-        "location": "Greece"
-      },
-      "bayware": {
-        "quote": "Adding a new supplier is a particularly sensitive matter for BayWa r.e. As the largest wholesaler in Europe, having associated our name with top-tier products from Tier 1 manufacturers for over 30 years, we maintain very strict criteria when selecting photovoltaic equipment. Our collaboration with Optimems for telemanagement systems came to address an urgent and specialized demand for a complete solution that required high technical expertise and immediate service.",
-        "author": "BayWa r.e. Team",
-        "role": "Distribution Partner",
-        "company": "BayWa r.e.",
-        "location": "Europe"
-      },
-      "clockwork": {
-        "quote": "Co-developing +SolarControl with Optimems was simply the catalyst for gaining a brotherly partner. Something that's practically a one-way street when you meet someone who shares the same passion and dedication to their work as you do. Our enduring partnership with Optimems is not just an exceptional professional experience, but every time it's a new opportunity to surpass ourselves.",
-        "author": "Clockwork Energy Team",
-        "role": "Development Partner",
-        "company": "Clockwork Energy",
-        "location": "Greece"
-      }
+    "headline": "Client Success Stories",
+    "subheadline": "See how we've helped organizations achieve their energy goals.",
+    "testimonial1": {
+      "quote": "Optimems' consulting expertise transformed our industrial facility's energy management. The RES optimization alone reduced our energy costs by 35%.",
+      "author": "Michael Johnson",
+      "role": "Plant Manager",
+      "company": "Industrial Manufacturing Co.",
+      "rating": 5,
+      "featured": true
+    },
+    "testimonial2": {
+      "quote": "The real-time simulation modeling provided invaluable insights for our large-scale operations. Highly professional and knowledgeable team.",
+      "author": "Sarah Chen",
+      "role": "Operations Director",
+      "company": "Tech Solutions Ltd.",
+      "rating": 5
+    },
+    "testimonial3": {
+      "quote": "Their techno-economic studies were thorough and actionable. The smart grid implementation exceeded our expectations.",
+      "author": "David Martinez",
+      "role": "Energy Director",
+      "company": " Municipal Utilities",
+      "rating": 5
+    },
+    "testimonial4": {
+      "quote": "Professional, efficient, and results-oriented. The integration studies saved us significant time and resources.",
+      "author": "Emma Thompson",
+      "role": "Project Manager",
+      "company": "Renewable Energy Corp",
+      "rating": 5
+    },
+    "testimonial5": {
+      "quote": "Expert guidance throughout the entire project lifecycle. Their methodology is second to none.",
+      "author": "James Wilson",
+      "role": "CTO",
+      "company": "Smart Grid Technologies",
+      "rating": 5
+    },
+    "testimonial6": {
+      "quote": "The results speak for themselves. Significant ROI achieved within the first year.",
+      "author": "Lisa Anderson",
+      "role": "Sustainability Manager",
+      "company": "Green Energy Solutions",
+      "rating": 5
+    },
+    "stats": {
+      "clients": "200+",
+      "clientsLabel": "Satisfied Clients",
+      "projects": "500+",
+      "projectsLabel": "Completed Projects",
+      "satisfaction": "98%",
+      "satisfactionLabel": "Client Satisfaction",
+      "years": "15+",
+      "yearsLabel": "Years Experience"
     }
   },
   "workflow": {
@@ -243,14 +271,12 @@
   },
   "warranty": {
     "title": "2-Year Comprehensive Warranty",
-    "description": "2-year warranty includes software updates to ensure continuous compliance with the Distributor Network Operator (DSO) requirements and basic technical support by email.",
-    "features": {
-      "continuousUpdates": "Continuous software updates",
-      "complianceUpdates": "DSO compliance updates",
-      "emailSupport": "Email technical support",
-      "hardwareReplacement": "Hardware replacement coverage"
-    },
-    "badge": "2 Years"
+    "features": [
+      "Continuous software updates",
+      "DSO compliance updates",
+      "Email technical support",
+      "Hardware replacement coverage"
+    ]
   },
   "blog": {
     "label": "Blog",
@@ -356,27 +382,77 @@
     }
   },
   "footer": {
+    "products": {
+      "title": "Products",
+      "links": [
+        {
+          "label": "+SolarControl",
+          "href": "/products-services/solar-control"
+        },
+        {
+          "label": "+Mind",
+          "href": "/products-services/mind"
+        },
+        {
+          "label": "Consulting",
+          "href": "/products-services/consult"
+        }
+      ]
+    },
     "company": {
-      "name": "Optimems",
-      "description": "Next-generation Energy Management Systems for microgrids and VPPs."
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about-us"
+        },
+        {
+          "label": "R&D Projects",
+          "href": "/rnd-projects"
+        },
+        {
+          "label": "Partnership",
+          "href": "/partnership"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ]
     },
-    "sectionTitles": {
-      "products": "PRODUCTS",
-      "company": "COMPANY",
-      "resources": "RESOURCES"
+    "resources": {
+      "title": "Resources",
+      "links": [
+        {
+          "label": "Blog",
+          "href": "/blog"
+        },
+        {
+          "label": "Compatibility Lists",
+          "href": "/compatibility-lists"
+        },
+        {
+          "label": "Warranties",
+          "href": "/warranties"
+        }
+      ]
     },
-    "footerLinks": {
-      "products": "+SolarControl, +Mind",
-      "company": "About Us, Partnership, Case Studies, Careers",
-      "resources": "Blog, Branding, Documentation, Support",
-      "legal": "Privacy Policy, Terms of Service, Cookie Policy"
+    "legal": {
+      "title": "Legal",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "/terms-of-service"
+        }
+      ]
     },
-    "legalLinks": {
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service",
-      "cookiePolicy": "Cookie Policy"
-    },
-    "copyright": "© 2026 Optimems. All rights reserved."
+    "copyright": "© {year} Optimems. All rights reserved.",
+    "address": "Thessaloniki, Greece",
+    "vat": "VAT: EL801977020"
   },
   "solarControlPage": {
     "meta": {
@@ -523,22 +599,48 @@
       }
     },
     "hardwareOverview": {
-      "headline": "Industrial Hardware Built for RES Plants",
-      "subheadline": "No vendor lock-in. No commercial protocol limitations.",
-      "description": "At the core of +SolarControl is an industrial MiniPC with custom firmware, housed in a sealed, pre-wired panel built to EN IEC 61439-1 & EN 61439-5 standards.",
-      "details": "It installs in minutes, operates in extreme temperatures (-20 to +60°C) and securely manages all communication with field devices.",
-      "features": [
-        "Custom Firmware — OTA updates & flexible configuration",
-        "Edge Controller — unique identifier & VPN client for secure access",
-        "Zero-Trust Security — impervious to cyberattacks & tampering attempts",
-        "Industrial Durability — certified, sealed, mechanically protected",
-        "Compatibility with 65+ inverter manufacturers",
-        "Support for all major open protocols (IEC-60870-5-104, Modbus TCP/RTU, IEC61850, OPC-UA/DA/XML-DA)",
-        "Sealed enclosure for physical protection",
-        "Integration with aggregators",
-        "Ready for storage/BESS control",
-        "API for future interoperability"
-      ]
+      "badge": "Industrial-Grade Hardware",
+      "title": "Industrial Hardware Built",
+      "titleHighlight": "for RES Plants",
+      "subtitle": "No vendor lock-in. No commercial protocol limitations.",
+      "description": "At the core of +SolarControl is an industrial MiniPC with custom firmware, housed in a sealed, pre-wired panel built to EN IEC 61439-1 & EN 61439-5 standards. It installs in minutes, operates in extreme temperatures and securely manages all communication with field devices.",
+      "keyFeatures": {
+        "title": "Key Features",
+        "features": [
+          {
+            "title": "Custom Firmware",
+            "description": "OTA updates & flexible configuration"
+          },
+          {
+            "title": "Zero-Trust Security",
+            "description": "impervious to cyberattacks & tampering attempts"
+          },
+          {
+            "title": "Edge Controller",
+            "description": "unique identifier & VPN client for secure access"
+          },
+          {
+            "title": "Industrial Durability",
+            "description": "certified, sealed, mechanically protected"
+          }
+        ]
+      },
+      "technicalSpecs": {
+        "title": "Technical Specifications",
+        "specs": [
+          "Compatibility with 65+ inverter manufacturers",
+          "Support for all major open protocols",
+          "Sealed enclosure for physical protection",
+          "Integration with aggregators & storage control",
+          "API for future interoperability"
+        ]
+      },
+      "operatingRange": {
+        "title": "Operating Range",
+        "subtitle": "Extreme temperature tolerance",
+        "to": "to",
+        "footer": "Certified for continuous operation in harsh environments"
+      }
     },
     "softwareOverview": {
       "headline": "SolarShield: The Online Monitoring & Control Platform",
@@ -1231,39 +1333,87 @@
     "cases": {
       "lamda": {
         "client": "Lamda Development",
-        "tags": ["Real Estate", "Smart Buildings"],
+        "tags": [
+          "Real Estate",
+          "Smart Buildings"
+        ],
         "description": "Implementing intelligent energy optimization across one of Greece's largest real estate developments, reducing operational costs while setting new standards for sustainable building management.",
-        "focusAreas": ["Large-scale property development", "Building energy management systems", "Operational cost reduction", "Sustainability compliance"]
+        "focusAreas": [
+          "Large-scale property development",
+          "Building energy management systems",
+          "Operational cost reduction",
+          "Sustainability compliance"
+        ]
       },
       "checkwatt": {
         "client": "Checkwatt",
-        "tags": ["Energy Storage", "Microgrids"],
+        "tags": [
+          "Energy Storage",
+          "Microgrids"
+        ],
         "description": "Partnering with Sweden's leading energy storage company to deliver advanced microgrid management solutions, enabling seamless integration of distributed energy resources.",
-        "focusAreas": ["Energy storage optimization", "Microgrid management", "Cross-border partnership", "Distributed energy resources"]
+        "focusAreas": [
+          "Energy storage optimization",
+          "Microgrid management",
+          "Cross-border partnership",
+          "Distributed energy resources"
+        ]
       },
       "soumpasis": {
         "client": "Soumpasis",
-        "tags": ["Agriculture", "Self-Consumption"],
+        "tags": [
+          "Agriculture",
+          "Self-Consumption"
+        ],
         "description": "Transforming agricultural energy consumption through smart optimization systems, helping one of Greece's established agricultural enterprises achieve energy independence.",
-        "focusAreas": ["Agricultural sector energy management", "Self-consumption maximization", "Energy independence", "Rural energy solutions"]
+        "focusAreas": [
+          "Agricultural sector energy management",
+          "Self-consumption maximization",
+          "Energy independence",
+          "Rural energy solutions"
+        ]
       },
       "pcc": {
         "client": "PCC FoSE",
-        "tags": ["Industrial", "Carbon Reduction"],
+        "tags": [
+          "Industrial",
+          "Carbon Reduction"
+        ],
         "description": "Deploying comprehensive energy management for industrial-scale operations, optimizing power flows and reducing carbon footprint across multiple facilities.",
-        "focusAreas": ["Industrial energy optimization", "Multi-facility management", "Carbon footprint reduction", "Power flow optimization"]
+        "focusAreas": [
+          "Industrial energy optimization",
+          "Multi-facility management",
+          "Carbon footprint reduction",
+          "Power flow optimization"
+        ]
       },
       "motorOil": {
         "client": "Motor Oil",
-        "tags": ["Energy Sector", "Renewables"],
+        "tags": [
+          "Energy Sector",
+          "Renewables"
+        ],
         "description": "Supporting Greece's leading energy group in their renewable transition with intelligent monitoring and optimization across their expanding clean energy portfolio.",
-        "focusAreas": ["Energy sector transformation", "Renewable portfolio management", "Large-scale monitoring", "Clean energy transition"]
+        "focusAreas": [
+          "Energy sector transformation",
+          "Renewable portfolio management",
+          "Large-scale monitoring",
+          "Clean energy transition"
+        ]
       },
       "sunlight": {
         "client": "Sunlight",
-        "tags": ["Battery Systems", "Integration"],
+        "tags": [
+          "Battery Systems",
+          "Integration"
+        ],
         "description": "Collaborating with a global leader in energy storage to integrate advanced battery management with our platform, maximizing efficiency and system longevity.",
-        "focusAreas": ["Battery system integration", "Storage optimization", "Platform integration", "System longevity"]
+        "focusAreas": [
+          "Battery system integration",
+          "Storage optimization",
+          "Platform integration",
+          "System longevity"
+        ]
       }
     },
     "cta": {
@@ -1300,14 +1450,23 @@
       "errors": {
         "required": "This field is required",
         "email": "Please enter a valid email address"
-      }
+      },
+      "namePlaceholder": "Your name",
+      "surnamePlaceholder": "Your surname",
+      "organisationPlaceholder": "Your organisation (optional)",
+      "selectSubjectPlaceholder": "Select a subject",
+      "messagePlaceholder": "Tell us more about your needs..."
     },
     "info": {
       "title": "Contact Information",
       "email": "Email",
       "phone": "Phone",
       "location": "Location",
-      "hours": "Business Hours"
+      "hours": "Business Hours",
+      "emailNote": "We typically reply within 24 hours",
+      "phoneNote": "Mon-Fri, 9am-6pm EET",
+      "address": "Thessaloniki, Greece",
+      "hoursDetail": "Monday - Friday\n9:00 AM - 6:00 PM EET"
     }
   },
   "mindPage": {
@@ -1545,390 +1704,314 @@
     "switchToLightTheme": "Switch to light theme",
     "switchToDarkTheme": "Switch to dark theme",
     "closeMenu": "Close menu",
-    "openMenu": "Open menu",
+    "toggleMenu": "Open menu",
     "close": "Close",
     "videoUnavailable": "Video is unavailable",
     "mapActive": "Active",
-    "mapComingSoon": "Coming soon"
+    "mapComingSoon": "Coming soon",
+    "openMenu": "Open menu"
   },
   "consultPage": {
     "meta": {
       "title": "Energy Consulting Services | Optimems",
       "description": "Expert energy consulting services for industrial facilities, smart grids, and renewable energy systems. Maximizing RES coverage, real-time simulation, and techno-economic studies.",
       "keywords": "energy consulting, RES optimization, smart grid consulting, industrial energy management, techno-economic studies, renewable energy integration"
+    }
+  },
+  "services": {
+    "headline": "Comprehensive Energy Consulting Services",
+    "subheadline": "From initial assessment to full implementation, we provide end-to-end expertise for your energy projects.",
+    "learnMore": "Learn More",
+    "service1": {
+      "title": "Maximization of RES Coverage",
+      "description": "Optimize renewable energy systems for industrial facilities to maximize coverage and efficiency.",
+      "features": [
+        "Comprehensive site assessment",
+        "RES potential analysis",
+        "Coverage optimization strategies",
+        "ROI calculation and projections"
+      ],
+      "href": "#contact"
     },
-    "hero": {
-      "badge": "Expert Energy Solutions",
-      "headline": "Strategic Energy Consulting for a Sustainable Future",
-      "subheadline": "Maximize your renewable energy potential with our comprehensive consulting services, from industrial optimization to smart grid deployment.",
-      "supportingLine": "Tailored solutions for every energy challenge.",
-      "primaryCTA": {
-        "label": "Book Consultation",
-        "href": "#contact"
-      },
-      "secondaryCTA": {
-        "label": "Download Brochure",
-        "href": "#"
-      },
-      "serviceHighlights": [
-        "Industrial RES Optimization",
-        "Real-Time Simulation",
-        "Techno-Economic Analysis",
-        "Smart Grid Integration"
-      ]
+    "service2": {
+      "title": "Real-Time Simulation Modeling",
+      "description": "Advanced simulation models for large facilities to predict and optimize energy performance.",
+      "features": [
+        "Dynamic load modeling",
+        "Energy flow simulation",
+        "Performance prediction",
+        "Scenario analysis"
+      ],
+      "href": "#contact"
     },
-    "services": {
-      "headline": "Comprehensive Energy Consulting Services",
-      "subheadline": "From initial assessment to full implementation, we provide end-to-end expertise for your energy projects.",
-      "learnMore": "Learn More",
-      "service1": {
-        "title": "Maximization of RES Coverage",
-        "description": "Optimize renewable energy systems for industrial facilities to maximize coverage and efficiency.",
-        "features": [
-          "Comprehensive site assessment",
-          "RES potential analysis",
-          "Coverage optimization strategies",
-          "ROI calculation and projections"
-        ],
-        "href": "#contact"
-      },
-      "service2": {
-        "title": "Real-Time Simulation Modeling",
-        "description": "Advanced simulation models for large facilities to predict and optimize energy performance.",
-        "features": [
-          "Dynamic load modeling",
-          "Energy flow simulation",
-          "Performance prediction",
-          "Scenario analysis"
-        ],
-        "href": "#contact"
-      },
-      "service3": {
-        "title": "Feasibility & Techno-Economic Studies",
-        "description": "Detailed feasibility studies for smart grids with comprehensive techno-economic analysis.",
-        "features": [
-          "Technical feasibility assessment",
-          "Economic viability analysis",
-          "Risk evaluation",
-          "Regulatory compliance review"
-        ],
-        "href": "#contact"
-      },
-      "service4": {
-        "title": "Integration & Deployment Studies",
-        "description": "Complete smart grid deployment studies from planning to implementation.",
-        "features": [
-          "System integration planning",
-          "Deployment roadmap",
-          "Technology selection",
-          "Performance monitoring"
-        ],
-        "href": "#contact"
-      },
-      "cta": {
-        "title": "Ready to Transform Your Energy Strategy?",
-        "description": "Let's discuss how our consulting services can help you achieve your energy goals.",
-        "button": "Schedule Consultation",
-        "href": "#contact"
-      }
+    "service3": {
+      "title": "Feasibility & Techno-Economic Studies",
+      "description": "Detailed feasibility studies for smart grids with comprehensive techno-economic analysis.",
+      "features": [
+        "Technical feasibility assessment",
+        "Economic viability analysis",
+        "Risk evaluation",
+        "Regulatory compliance review"
+      ],
+      "href": "#contact"
     },
-    "technology": {
-      "headline": "Advanced Technology & Methodologies",
-      "subheadline": "Cutting-edge tools and approaches to deliver superior energy solutions.",
-      "tech1": {
-        "title": "AI-Powered Analytics",
-        "description": "Machine learning algorithms for predictive energy modeling and optimization.",
-        "highlights": [
-          "Predictive maintenance",
-          "Load forecasting",
-          "Anomaly detection",
-          "Performance optimization"
-        ]
-      },
-      "tech2": {
-        "title": "Digital Twin Technology",
-        "description": "Virtual replicas of energy systems for simulation and testing.",
-        "highlights": [
-          "Real-time synchronization",
-          "Scenario testing",
-          "Performance monitoring",
-          "Risk assessment"
-        ]
-      },
-      "tech3": {
-        "title": "Advanced Simulation",
-        "description": "Sophisticated modeling tools for complex energy systems.",
-        "highlights": [
-          "Multi-physics simulation",
-          "Dynamic system analysis",
-          "Integration testing",
-          "Validation studies"
-        ]
-      },
-      "tech4": {
-        "title": "Data Analytics Platform",
-        "description": "Comprehensive data processing and visualization tools.",
-        "highlights": [
-          "Real-time data processing",
-          "Interactive dashboards",
-          "Trend analysis",
-          "Reporting automation"
-        ]
-      },
-      "tech5": {
-        "title": "Optimization Algorithms",
-        "description": "Custom algorithms for energy system optimization.",
-        "highlights": [
-          "Multi-objective optimization",
-          "Constraint handling",
-          "Solution validation",
-          "Performance tracking"
-        ]
-      },
-      "tech6": {
-        "title": "IoT Integration",
-        "description": "Seamless integration with IoT devices and sensors.",
-        "highlights": [
-          "Device connectivity",
-          "Data collection",
-          "Remote monitoring",
-          "Control systems"
-        ]
-      },
-      "stats": {
-        "globalProjects": "50+",
-        "globalProjectsLabel": "Global Projects",
-        "dataPoints": "10M+",
-        "dataPointsLabel": "Data Points Analyzed",
-        "optimization": "95%",
-        "optimizationLabel": "Optimization Success",
-        "reliability": "99.9%",
-        "reliabilityLabel": "System Reliability"
-      }
-    },
-    "process": {
-      "headline": "Our Consulting Process",
-      "subheadline": "A systematic approach to deliver optimal energy solutions.",
-      "step1": {
-        "title": "Discovery & Assessment",
-        "description": "Comprehensive evaluation of your current energy infrastructure and requirements.",
-        "details": [
-          "Site visits and data collection",
-          "Stakeholder interviews",
-          "Current state analysis",
-          "Requirements definition"
-        ]
-      },
-      "step2": {
-        "title": "Analysis & Planning",
-        "description": "In-depth analysis and strategic planning for optimal solutions.",
-        "details": [
-          "Technical analysis",
-          "Economic evaluation",
-          "Risk assessment",
-          "Solution design"
-        ]
-      },
-      "step3": {
-        "title": "Implementation & Support",
-        "description": "Expert implementation and ongoing support throughout the project.",
-        "details": [
-          "Project management",
-          "Technical implementation",
-          "Team training",
-          "Performance monitoring"
-        ]
-      },
-      "step4": {
-        "title": "Optimization & Results",
-        "description": "Continuous optimization and measurement of results.",
-        "details": [
-          "Performance tracking",
-          "System optimization",
-          "Results analysis",
-          "Continuous improvement"
-        ]
-      },
-      "timeline": {
-        "title": "Project Timeline",
-        "phase1": "Assessment",
-        "duration1": "2-4 weeks",
-        "description1": "Initial evaluation and planning",
-        "phase2": "Implementation",
-        "duration2": "3-6 months",
-        "description2": "Solution development and deployment",
-        "phase3": "Optimization",
-        "duration3": "Ongoing",
-        "description3": "Continuous improvement and support"
-      }
-    },
-    "testimonials": {
-      "headline": "Client Success Stories",
-      "subheadline": "See how we've helped organizations achieve their energy goals.",
-      "testimonial1": {
-        "quote": "Optimems' consulting expertise transformed our industrial facility's energy management. The RES optimization alone reduced our energy costs by 35%.",
-        "author": "Michael Johnson",
-        "role": "Plant Manager",
-        "company": "Industrial Manufacturing Co.",
-        "rating": 5,
-        "featured": true
-      },
-      "testimonial2": {
-        "quote": "The real-time simulation modeling provided invaluable insights for our large-scale operations. Highly professional and knowledgeable team.",
-        "author": "Sarah Chen",
-        "role": "Operations Director",
-        "company": "Tech Solutions Ltd.",
-        "rating": 5
-      },
-      "testimonial3": {
-        "quote": "Their techno-economic studies were thorough and actionable. The smart grid implementation exceeded our expectations.",
-        "author": "David Martinez",
-        "role": "Energy Director",
-        "company": " Municipal Utilities",
-        "rating": 5
-      },
-      "testimonial4": {
-        "quote": "Professional, efficient, and results-oriented. The integration studies saved us significant time and resources.",
-        "author": "Emma Thompson",
-        "role": "Project Manager",
-        "company": "Renewable Energy Corp",
-        "rating": 5
-      },
-      "testimonial5": {
-        "quote": "Expert guidance throughout the entire project lifecycle. Their methodology is second to none.",
-        "author": "James Wilson",
-        "role": "CTO",
-        "company": "Smart Grid Technologies",
-        "rating": 5
-      },
-      "testimonial6": {
-        "quote": "The results speak for themselves. Significant ROI achieved within the first year.",
-        "author": "Lisa Anderson",
-        "role": "Sustainability Manager",
-        "company": "Green Energy Solutions",
-        "rating": 5
-      },
-      "stats": {
-        "clients": "200+",
-        "clientsLabel": "Satisfied Clients",
-        "projects": "500+",
-        "projectsLabel": "Completed Projects",
-        "satisfaction": "98%",
-        "satisfactionLabel": "Client Satisfaction",
-        "years": "15+",
-        "yearsLabel": "Years Experience"
-      }
-    },
-    "faq": {
-      "badge": "Frequently Asked Questions",
-      "headline": "Got Questions? We Have Answers",
-      "subheadline": "Find answers to common questions about our energy consulting services.",
-      "category": {
-        "general": "General",
-        "services": "Services",
-        "process": "Process",
-        "pricing": "Pricing"
-      },
-      "question1": {
-        "question": "What types of industries do you work with?",
-        "answer": "We work with a diverse range of industries including manufacturing, utilities, commercial real estate, data centers, and renewable energy projects. Our expertise spans both industrial and commercial applications."
-      },
-      "question2": {
-        "question": "How long does a typical consulting engagement take?",
-        "answer": "Project timelines vary based on scope and complexity. Initial assessments typically take 2-4 weeks, while full implementation projects can range from 3-12 months depending on the scale and requirements."
-      },
-      "question3": {
-        "question": "What makes your RES optimization different?",
-        "answer": "Our approach combines advanced AI algorithms, real-time data analysis, and deep industry expertise. We provide customized solutions rather than one-size-fits-all approaches, ensuring maximum ROI for your specific facility."
-      },
-      "question4": {
-        "question": "Do you provide ongoing support after implementation?",
-        "answer": "Yes, we offer comprehensive ongoing support including maintenance, optimization, training, and continuous improvement services to ensure long-term success of your energy systems."
-      },
-      "question5": {
-        "question": "What is your typical project methodology?",
-        "answer": "Our methodology follows a structured four-phase approach: Discovery & Assessment, Analysis & Planning, Implementation & Support, and Optimization & Results. This ensures systematic delivery and measurable outcomes."
-      },
-      "question6": {
-        "question": "How do you ensure project success?",
-        "answer": "We ensure success through clear communication, defined milestones, regular progress reviews, risk management, and a dedicated project team. We also provide comprehensive documentation and training."
-      },
-      "question7": {
-        "question": "What are your pricing models?",
-        "answer": "We offer flexible pricing models including fixed-price projects, time-and-materials, and retainer agreements. Pricing is tailored to project scope, complexity, and duration. Contact us for a detailed quote."
-      },
-      "question8": {
-        "question": "Do you work internationally?",
-        "answer": "Yes, we have experience with international projects and work with clients globally. We understand local regulations, standards, and cultural considerations in different markets."
-      },
-      "cta": {
-        "title": "Still Have Questions?",
-        "description": "Contact us directly for personalized answers to your specific energy consulting needs.",
-        "primaryButton": "Schedule a Call",
-        "primaryHref": "#contact",
-        "secondaryButton": "View Resources",
-        "secondaryHref": "#"
-      }
+    "service4": {
+      "title": "Integration & Deployment Studies",
+      "description": "Complete smart grid deployment studies from planning to implementation.",
+      "features": [
+        "System integration planning",
+        "Deployment roadmap",
+        "Technology selection",
+        "Performance monitoring"
+      ],
+      "href": "#contact"
     },
     "cta": {
-      "headline": "Ready to Transform Your Energy Strategy?",
-      "subheadline": "Let's discuss how our consulting services can help you achieve your energy goals.",
-      "buttonLabel": "Book Consultation",
-      "buttonHref": "#contact"
-    },
-    "contact": {
-      "headline": "Start Your Energy Transformation Journey",
-      "subheadline": "Get in touch with our expert team to discuss your specific energy consulting needs.",
-      "contactInfo": {
-        "title": "Contact Information",
-        "email": {
-          "title": "Email",
-          "value": "consulting@optimems.gr"
-        },
-        "phone": {
-          "title": "Phone",
-          "value": "+30 210 1234 567"
-        },
-        "location": {
-          "title": "Office",
-          "value": "Athens, Greece"
-        },
-        "hours": {
-          "title": "Business Hours",
-          "value": "Monday - Friday, 9:00 AM - 6:00 PM EET"
-        }
-      },
-      "demoBooking": {
-        "title": "Book a Demo",
-        "description": "Schedule a personalized consultation with our energy experts.",
-        "responseTime": "We respond within 24 hours"
-      },
-      "form": {
-        "title": "Send Us a Message",
-        "name": "Full Name",
-        "namePlaceholder": "Enter your full name",
-        "email": "Email Address",
-        "emailPlaceholder": "Enter your email address",
-        "company": "Company Name",
-        "companyPlaceholder": "Enter your company name",
-        "service": "Service Interest",
-        "selectService": "Select a service",
-        "demoDate": "Preferred Demo Date",
-        "message": "Message",
-        "messagePlaceholder": "Tell us about your project...",
-        "submit": "Send Message",
-        "success": {
-          "title": "Message Sent Successfully!",
-          "message": "We'll get back to you within 24 hours."
-        }
-      },
-      "services": [
-        "Maximization of RES Coverage",
-        "Real-Time Simulation Modeling",
-        "Feasibility & Techno-Economic Studies",
-        "Integration & Deployment Studies"
-      ]
+      "title": "Ready to Transform Your Energy Strategy?",
+      "description": "Let's discuss how our consulting services can help you achieve your energy goals.",
+      "button": "Schedule Consultation",
+      "href": "#contact"
     }
+  },
+  "technology": {
+    "headline": "Advanced Technology & Methodologies",
+    "subheadline": "Cutting-edge tools and approaches to deliver superior energy solutions.",
+    "tech1": {
+      "title": "AI-Powered Analytics",
+      "description": "Machine learning algorithms for predictive energy modeling and optimization.",
+      "highlights": [
+        "Predictive maintenance",
+        "Load forecasting",
+        "Anomaly detection",
+        "Performance optimization"
+      ]
+    },
+    "tech2": {
+      "title": "Digital Twin Technology",
+      "description": "Virtual replicas of energy systems for simulation and testing.",
+      "highlights": [
+        "Real-time synchronization",
+        "Scenario testing",
+        "Performance monitoring",
+        "Risk assessment"
+      ]
+    },
+    "tech3": {
+      "title": "Advanced Simulation",
+      "description": "Sophisticated modeling tools for complex energy systems.",
+      "highlights": [
+        "Multi-physics simulation",
+        "Dynamic system analysis",
+        "Integration testing",
+        "Validation studies"
+      ]
+    },
+    "tech4": {
+      "title": "Data Analytics Platform",
+      "description": "Comprehensive data processing and visualization tools.",
+      "highlights": [
+        "Real-time data processing",
+        "Interactive dashboards",
+        "Trend analysis",
+        "Reporting automation"
+      ]
+    },
+    "tech5": {
+      "title": "Optimization Algorithms",
+      "description": "Custom algorithms for energy system optimization.",
+      "highlights": [
+        "Multi-objective optimization",
+        "Constraint handling",
+        "Solution validation",
+        "Performance tracking"
+      ]
+    },
+    "tech6": {
+      "title": "IoT Integration",
+      "description": "Seamless integration with IoT devices and sensors.",
+      "highlights": [
+        "Device connectivity",
+        "Data collection",
+        "Remote monitoring",
+        "Control systems"
+      ]
+    },
+    "stats": {
+      "globalProjects": "50+",
+      "globalProjectsLabel": "Global Projects",
+      "dataPoints": "10M+",
+      "dataPointsLabel": "Data Points Analyzed",
+      "optimization": "95%",
+      "optimizationLabel": "Optimization Success",
+      "reliability": "99.9%",
+      "reliabilityLabel": "System Reliability"
+    }
+  },
+  "process": {
+    "headline": "Our Consulting Process",
+    "subheadline": "A systematic approach to deliver optimal energy solutions.",
+    "step1": {
+      "title": "Discovery & Assessment",
+      "description": "Comprehensive evaluation of your current energy infrastructure and requirements.",
+      "details": [
+        "Site visits and data collection",
+        "Stakeholder interviews",
+        "Current state analysis",
+        "Requirements definition"
+      ]
+    },
+    "step2": {
+      "title": "Analysis & Planning",
+      "description": "In-depth analysis and strategic planning for optimal solutions.",
+      "details": [
+        "Technical analysis",
+        "Economic evaluation",
+        "Risk assessment",
+        "Solution design"
+      ]
+    },
+    "step3": {
+      "title": "Implementation & Support",
+      "description": "Expert implementation and ongoing support throughout the project.",
+      "details": [
+        "Project management",
+        "Technical implementation",
+        "Team training",
+        "Performance monitoring"
+      ]
+    },
+    "step4": {
+      "title": "Optimization & Results",
+      "description": "Continuous optimization and measurement of results.",
+      "details": [
+        "Performance tracking",
+        "System optimization",
+        "Results analysis",
+        "Continuous improvement"
+      ]
+    },
+    "timeline": {
+      "title": "Project Timeline",
+      "phase1": "Assessment",
+      "duration1": "2-4 weeks",
+      "description1": "Initial evaluation and planning",
+      "phase2": "Implementation",
+      "duration2": "3-6 months",
+      "description2": "Solution development and deployment",
+      "phase3": "Optimization",
+      "duration3": "Ongoing",
+      "description3": "Continuous improvement and support"
+    }
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "headline": "Got Questions? We Have Answers",
+    "subheadline": "Find answers to common questions about our energy consulting services.",
+    "category": {
+      "general": "General",
+      "services": "Services",
+      "process": "Process",
+      "pricing": "Pricing"
+    },
+    "question1": {
+      "question": "What types of industries do you work with?",
+      "answer": "We work with a diverse range of industries including manufacturing, utilities, commercial real estate, data centers, and renewable energy projects. Our expertise spans both industrial and commercial applications."
+    },
+    "question2": {
+      "question": "How long does a typical consulting engagement take?",
+      "answer": "Project timelines vary based on scope and complexity. Initial assessments typically take 2-4 weeks, while full implementation projects can range from 3-12 months depending on the scale and requirements."
+    },
+    "question3": {
+      "question": "What makes your RES optimization different?",
+      "answer": "Our approach combines advanced AI algorithms, real-time data analysis, and deep industry expertise. We provide customized solutions rather than one-size-fits-all approaches, ensuring maximum ROI for your specific facility."
+    },
+    "question4": {
+      "question": "Do you provide ongoing support after implementation?",
+      "answer": "Yes, we offer comprehensive ongoing support including maintenance, optimization, training, and continuous improvement services to ensure long-term success of your energy systems."
+    },
+    "question5": {
+      "question": "What is your typical project methodology?",
+      "answer": "Our methodology follows a structured four-phase approach: Discovery & Assessment, Analysis & Planning, Implementation & Support, and Optimization & Results. This ensures systematic delivery and measurable outcomes."
+    },
+    "question6": {
+      "question": "How do you ensure project success?",
+      "answer": "We ensure success through clear communication, defined milestones, regular progress reviews, risk management, and a dedicated project team. We also provide comprehensive documentation and training."
+    },
+    "question7": {
+      "question": "What are your pricing models?",
+      "answer": "We offer flexible pricing models including fixed-price projects, time-and-materials, and retainer agreements. Pricing is tailored to project scope, complexity, and duration. Contact us for a detailed quote."
+    },
+    "question8": {
+      "question": "Do you work internationally?",
+      "answer": "Yes, we have experience with international projects and work with clients globally. We understand local regulations, standards, and cultural considerations in different markets."
+    },
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "Contact us directly for personalized answers to your specific energy consulting needs.",
+      "primaryButton": "Schedule a Call",
+      "primaryHref": "#contact",
+      "secondaryButton": "View Resources",
+      "secondaryHref": "#"
+    }
+  },
+  "cta": {
+    "headline": "Ready to Transform Your Energy Strategy?",
+    "subheadline": "Let's discuss how our consulting services can help you achieve your energy goals.",
+    "buttonLabel": "Book Consultation",
+    "buttonHref": "#contact"
+  },
+  "contact": {
+    "headline": "Start Your Energy Transformation Journey",
+    "subheadline": "Get in touch with our expert team to discuss your specific energy consulting needs.",
+    "contactInfo": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email",
+        "value": "consulting@optimems.gr"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+30 210 1234 567"
+      },
+      "location": {
+        "title": "Office",
+        "value": "Athens, Greece"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "value": "Monday - Friday, 9:00 AM - 6:00 PM EET"
+      }
+    },
+    "demoBooking": {
+      "title": "Book a Demo",
+      "description": "Schedule a personalized consultation with our energy experts.",
+      "responseTime": "We respond within 24 hours"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "company": "Company Name",
+      "companyPlaceholder": "Enter your company name",
+      "service": "Service Interest",
+      "selectService": "Select a service",
+      "demoDate": "Preferred Demo Date",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "success": {
+        "title": "Message Sent Successfully!",
+        "message": "We'll get back to you within 24 hours."
+      }
+    },
+    "services": [
+      "Maximization of RES Coverage",
+      "Real-Time Simulation Modeling",
+      "Feasibility & Techno-Economic Studies",
+      "Integration & Deployment Studies"
+    ]
   },
   "warrantiesPage": {
     "hero": {
@@ -2010,5 +2093,29 @@
       "button": "Contact Support",
       "buttonHref": "/contact"
     }
+  },
+  "caseStudies": {
+    "keyFocusAreas": "Key Focus Areas",
+    "learnMore": "Learn More"
+  },
+  "dashboardDemo": {
+    "headline": "Experience the Future of Solar Energy Management",
+    "subheadline": "Our refined dashboard delivers real-time insights, seamless control, and unmatched operational clarity for your solar infrastructure.",
+    "primaryCTA": "Start Free Trial",
+    "secondaryCTA": "Watch Demo",
+    "features": {
+      "realTime": "Real-time monitoring and control",
+      "automation": "Intelligent automation and alerts",
+      "integration": "Seamless integration with existing infrastructure"
+    },
+    "liveDemo": "Live Demo"
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDescription": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home",
+    "somethingWentWrong": "Something Went Wrong",
+    "pageError": "An unexpected error occurred. Please try again.",
+    "tryAgain": "Try Again"
   }
 }

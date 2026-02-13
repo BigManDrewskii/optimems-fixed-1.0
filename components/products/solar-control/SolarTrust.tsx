@@ -3,6 +3,7 @@ import { useTranslations, useLocale } from "next-intl"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { useTheme } from "next-themes"
+import { useState, useEffect } from "react"
 
 /**
  * SolarTrust - Trust section with logo cards
@@ -15,6 +16,11 @@ export function SolarTrust() {
   const locale = useLocale()
   const isGreek = locale === 'el'
   const { resolvedTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
   const benefits = t.raw('inHouseBenefits') as string[]
 
   return (
@@ -107,7 +113,7 @@ export function SolarTrust() {
             {/* Centered Auth Logo - Icon Only */}
             <div className="flex justify-center mb-6">
               <Image
-                src={resolvedTheme === 'dark' ? '/images/sections/auth-logo-certified.svg' : '/images/logos/auth-logo-certified-light.svg'}
+                src={mounted && resolvedTheme === 'dark' ? '/images/sections/auth-logo-certified.svg' : '/images/logos/auth-logo-certified-light.svg'}
                 alt="Officially Certified"
                 width={80}
                 height={80}

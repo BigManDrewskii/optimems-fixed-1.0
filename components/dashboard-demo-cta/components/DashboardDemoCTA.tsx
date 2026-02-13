@@ -3,24 +3,24 @@
 import { motion } from "framer-motion"
 import { Dashboard16x9 } from "./layouts/Dashboard16x9"
 import { Dashboard3x4 } from "./layouts/Dashboard3x4"
+import { useTranslations } from "next-intl"
 
 export interface DashboardDemoCTAProps {
-  headline?: string
-  subheadline?: string
-  primaryCTA?: { label: string; href: string }
-  secondaryCTA?: { label: string; href: string }
   id?: string
   className?: string
 }
 
 export function DashboardDemoCTA({
-  headline = "Experience the Future of Solar Energy Management",
-  subheadline = "Our refined dashboard delivers real-time insights, seamless control, and unmatched operational clarity for your solar infrastructure.",
-  primaryCTA = { label: "Start Free Trial", href: "#signup" },
-  secondaryCTA = { label: "Watch Demo", href: "#demo" },
+  
   id = "dashboard-demo",
   className = "",
 }: DashboardDemoCTAProps) {
+  const t = useTranslations("dashboardDemo")
+
+  const headline = t("headline")
+  const subheadline = t("subheadline")
+  const primaryCTA = { label: t("primaryCTA"), href: "#signup" }
+  const secondaryCTA = { label: t("secondaryCTA"), href: "#demo" }
   return (
     <section
       id={id}
@@ -77,15 +77,15 @@ export function DashboardDemoCTA({
             >
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <div className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                <span>Real-time monitoring and control</span>
+                <span>{t("features.realTime")}</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <div className="w-1.5 h-1.5 rounded-full bg-cyan-500" />
-                <span>Intelligent automation and alerts</span>
+                <span>{t("features.automation")}</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-400">
                 <div className="w-1.5 h-1.5 rounded-full bg-[#e91e63]" />
-                <span>Seamless integration with existing infrastructure</span>
+                <span>{t("features.integration")}</span>
               </div>
             </motion.div>
           </motion.div>
@@ -122,7 +122,7 @@ export function DashboardDemoCTA({
               transition={{ duration: 0.6, delay: 0.8 }}
               className="absolute -bottom-4 -right-4 bg-primary text-white text-xs font-semibold px-4 py-2 rounded-full shadow-lg"
             >
-              Live Demo
+              {t("liveDemo")}
             </motion.div>
           </motion.div>
 

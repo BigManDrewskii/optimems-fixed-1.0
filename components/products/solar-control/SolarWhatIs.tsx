@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl"
 import { motion } from "framer-motion"
 import { Video } from "@/components/shared/Video"
 import { useTheme } from "next-themes"
+import { useState, useEffect } from "react"
 import { Sun, Wind, Droplets, Leaf, Trees, Battery } from "lucide-react"
 
 /**
@@ -13,7 +14,12 @@ import { Sun, Wind, Droplets, Leaf, Trees, Battery } from "lucide-react"
 export function SolarWhatIs() {
   const t = useTranslations('solarControlPage.whatIsSolarControl')
   const { resolvedTheme } = useTheme()
-  const isLight = resolvedTheme === "light"
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+  const isLight = mounted && resolvedTheme === "light"
 
   return (
     <section className="py-24">

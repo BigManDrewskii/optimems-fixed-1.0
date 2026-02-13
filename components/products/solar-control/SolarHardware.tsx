@@ -14,34 +14,8 @@ export function SolarHardware() {
   const locale = useLocale()
   const isGreek = locale === 'el'
 
-  // Key Features
-  const keyFeatures = [
-    {
-      title: "Custom Firmware",
-      description: "OTA updates & flexible configuration"
-    },
-    {
-      title: "Zero-Trust Security",
-      description: "impervious to cyberattacks & tampering attempts"
-    },
-    {
-      title: "Edge Controller",
-      description: "unique identifier & VPN client for secure access"
-    },
-    {
-      title: "Industrial Durability",
-      description: "certified, sealed, mechanically protected"
-    }
-  ]
-
-  // Technical Specs
-  const technicalSpecs = [
-    "Compatibility with 65+ inverter manufacturers",
-    "Support for all major open protocols",
-    "Sealed enclosure for physical protection",
-    "Integration with aggregators & storage control",
-    "API for future interoperability"
-  ]
+  const keyFeatures = t.raw('keyFeatures.features') as { title: string; description: string }[]
+  const technicalSpecs = t.raw('technicalSpecs.specs') as string[]
 
   return (
     <section className="py-24">
@@ -61,16 +35,16 @@ export function SolarHardware() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6"
           >
-            <span className="text-sm font-medium text-primary">Industrial-Grade Hardware</span>
+            <span className="text-sm font-medium text-primary">{t("badge")}</span>
           </motion.div>
 
           <h2 className={`text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight ${isGreek ? 'greek-heading' : ''}`}>
-            <span className="text-foreground">Industrial Hardware Built</span>{' '}
-            <span className="text-primary">for RES Plants</span>
+            <span className="text-foreground">{t("title")}</span>{' '}
+            <span className="text-primary">{t("titleHighlight")}</span>
           </h2>
 
           <p className={`text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto ${isGreek ? 'greek-text' : ''}`}>
-            No vendor lock-in. No commercial protocol limitations.
+            {t("subtitle")}
           </p>
         </motion.div>
 
@@ -84,9 +58,7 @@ export function SolarHardware() {
         >
           <GlassCard className="p-8 md:p-12 text-center">
             <p className={`text-lg md:text-xl leading-relaxed text-muted-foreground max-w-4xl mx-auto ${isGreek ? 'greek-text' : ''}`}>
-              At the core of +SolarControl is an <span className="text-foreground font-semibold">industrial MiniPC</span> with custom firmware,
-              housed in a sealed, pre-wired panel built to <span className="text-primary font-semibold">EN IEC 61439-1 & EN 61439-5</span> standards.
-              It installs in minutes, operates in extreme temperatures and securely manages all communication with field devices.
+              {t("description")}
             </p>
           </GlassCard>
         </motion.div>
@@ -100,7 +72,7 @@ export function SolarHardware() {
           className="mb-20"
         >
           <h3 className={`text-2xl md:text-3xl font-bold mb-12 text-center ${isGreek ? 'greek-heading' : ''}`}>
-            Key Features
+            {t("keyFeatures.title")}
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -137,7 +109,7 @@ export function SolarHardware() {
             {/* Specs List */}
             <div>
               <h3 className={`text-2xl md:text-3xl font-bold mb-8 ${isGreek ? 'greek-heading' : ''}`}>
-                Technical Specifications
+                {t("technicalSpecs.title")}
               </h3>
 
               <div className="space-y-4">
@@ -172,9 +144,9 @@ export function SolarHardware() {
                   </div>
                   <div>
                     <h4 className={`text-xl font-bold text-foreground ${isGreek ? 'greek-heading' : ''}`}>
-                      Operating Range
+                      {t("operatingRange.title")}
                     </h4>
-                    <p className="text-sm text-muted-foreground">Extreme temperature tolerance</p>
+                    <p className="text-sm text-muted-foreground">{t("operatingRange.subtitle")}</p>
                   </div>
                 </div>
 
@@ -184,7 +156,7 @@ export function SolarHardware() {
                   </div>
                   <div className="flex items-center justify-center gap-4 my-4">
                     <div className="h-1 flex-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-                    <span className="text-2xl text-muted-foreground">to</span>
+                    <span className="text-2xl text-muted-foreground">{t("operatingRange.to")}</span>
                     <div className="h-1 flex-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
                   </div>
                   <div className={`text-5xl md:text-6xl font-bold text-primary ${isGreek ? 'greek-heading' : ''}`}>
@@ -194,7 +166,7 @@ export function SolarHardware() {
 
                 <div className="border-t border-border pt-6 mt-6">
                   <p className={`text-sm text-muted-foreground text-center ${isGreek ? 'greek-text' : ''}`}>
-                    Certified for continuous operation in harsh environments
+                    {t("operatingRange.footer")}
                   </p>
                 </div>
               </GlassCard>

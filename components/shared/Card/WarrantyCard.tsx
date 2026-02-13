@@ -10,16 +10,9 @@ import { useLocale, useTranslations } from "next-intl"
 export interface WarrantyCardProps {
   className?: string
   isInView?: boolean
-  displayOrder?: number  // Used for animation delay calculation
+  displayOrder?: number
   href?: string
 }
-
-const warrantyFeatures = [
-  "Continuous software updates",
-  "DSO compliance updates",
-  "Email technical support",
-  "Hardware replacement coverage"
-]
 
 export function WarrantyCard({
   className,
@@ -28,7 +21,7 @@ export function WarrantyCard({
   href,
 }: WarrantyCardProps) {
   const [mounted, setMounted] = useState(false)
-  const t = useTranslations()
+  const t = useTranslations("warranty")
   const { resolvedTheme } = useTheme()
   const locale = useLocale()
   const isGreek = locale === "el"
@@ -36,6 +29,8 @@ export function WarrantyCard({
   useEffect(() => {
     setMounted(true)
   }, [])
+
+  const warrantyFeatures = t.raw("features") as string[]
 
   const videoSource = resolvedTheme === "light"
     ? "/videos/optimems-logo-animation-black-logo.webm"
@@ -47,7 +42,7 @@ export function WarrantyCard({
       <div className="p-6 md:p-8 order-2 md:order-1 flex flex-col justify-center">
         {/* Title */}
         <h3 className={`text-2xl md:text-3xl font-bold text-foreground mb-6 group-hover:text-primary transition-colors ${isGreek ? "greek-heading" : ""}`}>
-          {t("warranty.title")}
+          {t("title")}
         </h3>
 
         {/* Features list with checkmarks */}

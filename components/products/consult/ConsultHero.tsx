@@ -20,7 +20,7 @@ export function ConsultHero() {
   const isGreek = locale === 'el'
   const { resolvedTheme } = useTheme()
   const [shouldLoadVideo, setShouldLoadVideo] = useState(false)
-  const [isClient, setIsClient] = useState(false)
+  const [mounted, setMounted] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
 
   // Detect mobile screen size
@@ -29,7 +29,7 @@ export function ConsultHero() {
       setIsMobile(window.innerWidth < 768)
     }
     
-    setIsClient(true)
+    setMounted(true)
     checkMobile()
     window.addEventListener('resize', checkMobile)
     
@@ -37,14 +37,14 @@ export function ConsultHero() {
   }, [])
 
   // Get optimized video sources
-  const videoSources = getVideoSrc('consult', resolvedTheme === 'light', isMobile) || {
-    webm: '/videos/consult_compressed.webm',
-    mp4: '/videos/consult_compressed.mp4'
-  }
+    const videoSources = mounted ? (getVideoSrc("consult", resolvedTheme === "light", isMobile) ?? undefined) : {
+    webm: "/videos/consult_compressed.webm",
+    mp4: "/videos/consult_compressed.mp4"
+  };
 
   // Delay video loading to prioritize LCP (poster image)
   useEffect(() => {
-    setIsClient(true)
+    setMounted(true)
     const timer = setTimeout(() => {
       setShouldLoadVideo(true)
     }, 1500) // Start loading video after 1.5s
@@ -56,7 +56,7 @@ export function ConsultHero() {
     <section className="relative min-h-[80vh] md:min-h-[85vh] lg:min-h-[90vh] pt-32 md:pt-40 lg:pt-48 pb-16 md:pb-20 lg:pb-24 flex items-center justify-center overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 opacity-40">
-        {isClient ? (
+        {mounted ? (
           <Video
             src=""
             sources={videoSources}
