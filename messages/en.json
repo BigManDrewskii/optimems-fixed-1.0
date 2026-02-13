@@ -1099,7 +1099,45 @@
       "title": "The Team",
       "description": "We leverage our years of academic research and hands-on experience to develop smart, collaborative technology and offer intelligent solutions that truly put energy control back into your hands.",
       "management": "Management Team",
-      "rest": "Meet the Rest of the Team"
+      "rest": "Meet the Rest of the Team",
+      "members": {
+        "angelina": {
+          "name": "Angelina Bintoudi",
+          "role": "CEO & Co-founder",
+          "bio": "A power engineer with a passion for microgrid research, challenging problems, and earth-to-space applications."
+        },
+        "christos": {
+          "name": "Christos Timplalexis",
+          "role": "CPO & Co-founder",
+          "bio": "Experienced researcher skilled in data analysis and machine learning, focused on energy-related projects."
+        },
+        "lampros": {
+          "name": "Lampros Zyglakis",
+          "role": "CTO & Co-founder",
+          "bio": "Technology leader driving Optimems' software architecture and smart energy platform development."
+        },
+        "dimitris": {
+          "name": "Dimitris Karanassos",
+          "role": "COO & Co-founder",
+          "bio": "Operations expert bridging academic research and real-world energy solutions deployment."
+        },
+        "dimosthenis": {
+          "name": "Dimosthenis Ioannidis",
+          "role": "CIO & Co-founder",
+          "bio": "Senior researcher and software engineer with deep expertise in IoT and project management."
+        },
+        "tzovaras": {
+          "name": "Dimitrios Tzovaras",
+          "role": "CBO & Co-founder",
+          "bio": "Research Director at CERTH/ITI with extensive experience in European research leadership and innovation."
+        },
+        "spiros": {
+          "name": "Spiros Kopolas",
+          "role": "Advisor",
+          "bio": "Industry veteran in energy storage and electronic systems, advising on strategic growth and market positioning."
+        }
+      },
+      "advisors": "Advisors"
     },
     "values": {
       "title": "Our Values",
